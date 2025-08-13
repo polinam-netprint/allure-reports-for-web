@@ -4,94 +4,60 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Element should be clickable: interactable and enabled {img.porch-home-tile-image[5]}\nElement: '<img class=\"porch-home-tile-image\" src=\"//static.photoholding.com/images/i/albums.jpg\" displayed:false></img>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1755094463310.1.png\nPage source: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1755094463310.1.html\nTimeout: 14 s.",
-      "children" : [ {
-        "name" : "Добавление в корзину карманного календарика",
-        "uid" : "57ddaed52825d0c2",
-        "parentUid" : "add9b4d75b1c49adfc2905e781ed02c2",
-        "status" : "failed",
-        "time" : {
-          "start" : 1755094425411,
-          "stop" : 1755094465257,
-          "duration" : 39846
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "add9b4d75b1c49adfc2905e781ed02c2"
-    }, {
-      "name" : "Element not found {by text: Подтвердить заказ}\nExpected: clickable: interactable and enabled\nPage source: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1755094567366.2.html\nTimeout: 14 s.\nCaused by: NoSuchSessionException: invalid session id",
+      "name" : "Element not found {button.order-delivery-switch}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1755094676526.3.png\nPage source: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1755094676526.3.html\nTimeout: 14 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"button.order-delivery-switch\"}",
       "children" : [ {
         "name" : "Оплата Paykeeper QR",
-        "uid" : "76f6cbaaed4db59a",
-        "parentUid" : "72db491a91372802d01da56045343226",
+        "uid" : "9ea8b485f2af23a3",
+        "parentUid" : "da3e5a2262279e48a5766db536ff89ad",
         "status" : "failed",
         "time" : {
-          "start" : 1755094516120,
-          "stop" : 1755094577340,
-          "duration" : 61220
+          "start" : 1755094629307,
+          "stop" : 1755094681101,
+          "duration" : 51794
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "72db491a91372802d01da56045343226"
+      "uid" : "da3e5a2262279e48a5766db536ff89ad"
     }, {
-      "name" : "1 expectation failed.\nExpected status code <200> but was <400>.\n",
+      "name" : "Element should be clickable: interactable and enabled {img.porch-home-tile-image[5]}\nElement: '<img class=\"porch-home-tile-image\" src=\"//static.photoholding.com/images/i/albums.jpg\" displayed:false></img>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1755094722364.4.png\nPage source: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1755094722364.4.html\nTimeout: 14 s.",
       "children" : [ {
-        "name" : "DemoOrderTest",
-        "uid" : "9d0e176e1ea5fcde",
-        "parentUid" : "3322b5d56ab2d43ffab4be5a2a03ee17",
+        "name" : "Добавление в корзину карманного календарика",
+        "uid" : "514eb3c61a221a43",
+        "parentUid" : "3f300f39cc467557e9c6559b53c7a6d8",
         "status" : "failed",
         "time" : {
-          "start" : 1755094584806,
-          "stop" : 1755094584806,
+          "start" : 1755094681117,
+          "stop" : 1755094724216,
+          "duration" : 43099
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3f300f39cc467557e9c6559b53c7a6d8"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Page/methods/OrderHistoryPage",
+      "children" : [ {
+        "name" : "DemoOrderTest",
+        "uid" : "7f3905eb391c7628",
+        "parentUid" : "ad55db83b7bfaabe6b2b69c6d58e0fdb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1755094868892,
+          "stop" : 1755094868892,
           "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "3322b5d56ab2d43ffab4be5a2a03ee17"
-    } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
-  }, {
-    "name" : "Test defects",
-    "children" : [ {
-      "name" : "invalid session id: session deleted as the browser has closed the connection\nfrom disconnected: Unable to receive message from renderer\n  (Session info: chrome=139.0.7258.128)\nBuild info: version: '4.29.0', revision: '5fc1ec94cb'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6', java.version: '24.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [68d3dc7e273e33f3a95ddca266491ada, refresh {}]\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: /var/folders/hx/tkw53wds467...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53121}, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:53121/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 68d3dc7e273e33f3a95ddca266491ada",
-      "children" : [ {
-        "name" : "Создание книги в онлайн-редакторе",
-        "uid" : "2100f20237a2ba4d",
-        "parentUid" : "713109b638976d7717f20fd5862e3793",
-        "status" : "broken",
-        "time" : {
-          "start" : 1755094488296,
-          "stop" : 1755094491877,
-          "duration" : 3581
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "713109b638976d7717f20fd5862e3793"
-    }, {
-      "name" : "invalid session id: session deleted as the browser has closed the connection\nfrom disconnected: Unable to receive message from renderer\n  (Session info: chrome=139.0.7258.128)\nBuild info: version: '4.29.0', revision: '5fc1ec94cb'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6', java.version: '24.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [e62b4fe211783cf64320cefec5f816ed, get {url=https://netprint.ru/?e_token=1stf8sdeml932092ccee82413259e514173e31a54f5358ed2f29a7aedc8d61e5187bab2905}]\nselenide.url: https://netprint.ru/?e_token=1stf8sdeml932092ccee82413259e514173e31a54f5358ed2f29a7aedc8d61e5187bab2905\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: /var/folders/hx/tkw53wds467...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53845}, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:53845/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nselenide.baseUrl: https://netprint.ru/\nSession ID: e62b4fe211783cf64320cefec5f816ed",
-      "children" : [ {
-        "name" : "Загрузка фото в альбом",
-        "uid" : "58b1585a993a01fa",
-        "parentUid" : "ddeba2374a41d978781da22729acd1be",
-        "status" : "broken",
-        "time" : {
-          "start" : 1755094550890,
-          "stop" : 1755094555384,
-          "duration" : 4494
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "ddeba2374a41d978781da22729acd1be"
+      "uid" : "ad55db83b7bfaabe6b2b69c6d58e0fdb"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]
