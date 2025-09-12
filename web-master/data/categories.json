@@ -2,24 +2,62 @@
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
   "children" : [ {
-    "name" : "Product defects",
+    "name" : "Test defects",
     "children" : [ {
-      "name" : "1 expectation failed.\nExpected status code <200> but was <400>.\n",
+      "name" : "Page/PayApiMethods",
+      "children" : [ {
+        "name" : "Оплата Paykeeper QR",
+        "uid" : "7ceda6705aba1113",
+        "parentUid" : "16f48be8c0de864abe322b561927eb8f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1757645911315,
+          "stop" : 1757645949083,
+          "duration" : 37768
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "16f48be8c0de864abe322b561927eb8f"
+    }, {
+      "name" : "Page/methods/OrderHistoryPage",
       "children" : [ {
         "name" : "DemoOrderTest",
-        "uid" : "7bda4d05e2bba003",
-        "parentUid" : "3322b5d56ab2d43ffab4be5a2a03ee17",
-        "status" : "failed",
+        "uid" : "109a9981ed5535ad",
+        "parentUid" : "ad55db83b7bfaabe6b2b69c6d58e0fdb",
+        "status" : "broken",
         "time" : {
-          "start" : 1757645710816,
-          "stop" : 1757645710816,
+          "start" : 1757646219694,
+          "stop" : 1757646219694,
           "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "3322b5d56ab2d43ffab4be5a2a03ee17"
+      "uid" : "ad55db83b7bfaabe6b2b69c6d58e0fdb"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Invalid element state [div.product-card-bottom-btn-order[1]]: element click intercepted: Element <div class=\"btn btn-primary product-card-bottom-btn-order btn-order--js\" ga-action-click-type=\"click.ProductPage\" ga-action=\"click\" ga-action-click-omsid=\"PHOTOPHOTOBOOK_20x20:COVER\">...</div> is not clickable at point (1537, 363). Other element would receive the click: <iframe id=\"fl-991741\" title=\"Flocktory widget\" frameborder=\"0\" scrolling=\"no\" class=\"flocktory-widget\" style=\"width: 100%; height: 400px;\"></iframe>\nScreenshot: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1757646131300.0.png\nPage source: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1757646131300.0.html\nTimeout: 20 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <div class=\"btn btn-primary product-card-bottom-btn-order btn-order--js\" ga-action-click-type=\"click.ProductPage\" ga-action=\"click\" ga-action-click-omsid=\"PHOTOPHOTOBOOK_20x20:COVER\">...</div> is not clickable at point (1537, 363). Other element would receive the click: <iframe id=\"fl-991741\" title=\"Flocktory widget\" frameborder=\"0\" scrolling=\"no\" class=\"flocktory-widget\" style=\"width: 100%; height: 400px;\"></iframe>",
+      "children" : [ {
+        "name" : "Создание книги в онлайн-редакторе",
+        "uid" : "eef49628c19be58",
+        "parentUid" : "91c9342d57587abcaad239e7a61ecae0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1757646056087,
+          "stop" : 1757646132854,
+          "duration" : 76767
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "91c9342d57587abcaad239e7a61ecae0"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
