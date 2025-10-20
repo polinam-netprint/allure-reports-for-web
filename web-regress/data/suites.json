@@ -2,86 +2,233 @@
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
   "name" : "suites",
   "children" : [ {
-    "name" : "regress.RegressBook",
+    "name" : "test.DemoOrderTest",
     "children" : [ {
-      "name" : "Регресс-Оформление фотокниги Стандарт 20х20",
-      "uid" : "c5aaaec0dbb67306",
-      "parentUid" : "02b3aaf73547b96d57cb8682981afe02",
-      "status" : "failed",
-      "time" : {
-        "start" : 1755778097293,
-        "stop" : 1755778168182,
-        "duration" : 70889
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Регресс-Оформление выпускного альбома",
-      "uid" : "e1903ea2630e76bf",
-      "parentUid" : "02b3aaf73547b96d57cb8682981afe02",
-      "status" : "failed",
-      "time" : {
-        "start" : 1755778168192,
-        "stop" : 1755778226987,
-        "duration" : 58795
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Регресс-Оформление фотокниги с 3D фольгированием",
-      "uid" : "1290d1bf075df7ca",
-      "parentUid" : "02b3aaf73547b96d57cb8682981afe02",
-      "status" : "failed",
-      "time" : {
-        "start" : 1755778226995,
-        "stop" : 1755778352693,
-        "duration" : 125698
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Регресс-Оформление минибука с максимальным количеством разворотов",
-      "uid" : "45e44ef74c05a7d6",
-      "parentUid" : "02b3aaf73547b96d57cb8682981afe02",
-      "status" : "failed",
-      "time" : {
-        "start" : 1755778352702,
-        "stop" : 1755778425526,
-        "duration" : 72824
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "Регресс-Оформление фотокниги с 3D покрытием лак",
-      "uid" : "16237aba167afb8",
-      "parentUid" : "02b3aaf73547b96d57cb8682981afe02",
+      "name" : "Создание книги в онлайн-редакторе",
+      "uid" : "523a1881c11147a5",
+      "parentUid" : "b9283594eb96f33fe9da68124b37c21f",
       "status" : "passed",
       "time" : {
-        "start" : 1755778425535,
-        "stop" : 1755778584712,
-        "duration" : 159177
+        "start" : 1760970900436,
+        "stop" : 1760971007953,
+        "duration" : 107517
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
-      "name" : "RegressBook",
-      "uid" : "45a8bed24bb0c8",
-      "parentUid" : "02b3aaf73547b96d57cb8682981afe02",
-      "status" : "broken",
+      "name" : "Заказ постера: неавторизованный юзер",
+      "uid" : "7103de0ce0d1f92",
+      "parentUid" : "b9283594eb96f33fe9da68124b37c21f",
+      "status" : "passed",
       "time" : {
-        "start" : 1755778584716,
-        "stop" : 1755778584716,
+        "start" : 1760971007956,
+        "stop" : 1760971036898,
+        "duration" : 28942
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Создание макета в SVG-редакторе",
+      "uid" : "4c91bdaa3e0d1b82",
+      "parentUid" : "b9283594eb96f33fe9da68124b37c21f",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1760971131759,
+        "stop" : 1760971131759,
         "duration" : 0
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
+    }, {
+      "name" : "Оплата Paykeeper QR",
+      "uid" : "4defdf08f5d15f30",
+      "parentUid" : "b9283594eb96f33fe9da68124b37c21f",
+      "status" : "broken",
+      "time" : {
+        "start" : 1760971159902,
+        "stop" : 1760971203603,
+        "duration" : 43701
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Загрузка фото в альбом",
+      "uid" : "f757ea439580f533",
+      "parentUid" : "b9283594eb96f33fe9da68124b37c21f",
+      "status" : "broken",
+      "time" : {
+        "start" : 1760971203617,
+        "stop" : 1760971251396,
+        "duration" : 47779
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
     } ],
-    "uid" : "02b3aaf73547b96d57cb8682981afe02"
+    "uid" : "b9283594eb96f33fe9da68124b37c21f"
+  }, {
+    "name" : "regress.RegTest.RegressAuth",
+    "children" : [ {
+      "name" : "Проверка видимости reCAPTCHA на странице регистрации по телефону",
+      "uid" : "dde583755aa78c24",
+      "parentUid" : "1d922fbc4fea80e9a9fef3d265b2e5d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1760970939168,
+        "stop" : 1760970967801,
+        "duration" : 28633
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Проверка видимости reCAPTCHA на странице авторизации по телефону",
+      "uid" : "9a95d7a92ef3ea65",
+      "parentUid" : "1d922fbc4fea80e9a9fef3d265b2e5d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1760970967838,
+        "stop" : 1760970995909,
+        "duration" : 28071
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Проверка видимости reCAPTCHA на странице авторизации по логину",
+      "uid" : "6da3a71cb0582da5",
+      "parentUid" : "1d922fbc4fea80e9a9fef3d265b2e5d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1760970995913,
+        "stop" : 1760971023255,
+        "duration" : 27342
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Проверка видимости reCAPTCHA на странице регистрации по имейлу",
+      "uid" : "b22e79da5639c3ec",
+      "parentUid" : "1d922fbc4fea80e9a9fef3d265b2e5d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1760971023259,
+        "stop" : 1760971050838,
+        "duration" : 27579
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Тест с незарегистрированным имейлом",
+      "uid" : "cd4f44e118be2745",
+      "parentUid" : "1d922fbc4fea80e9a9fef3d265b2e5d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1760971050852,
+        "stop" : 1760971085690,
+        "duration" : 34838
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Тест с неверным паролем",
+      "uid" : "be05fc696a60ea61",
+      "parentUid" : "1d922fbc4fea80e9a9fef3d265b2e5d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1760971085693,
+        "stop" : 1760971120105,
+        "duration" : 34412
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Пароль свыше 50 символов",
+      "uid" : "e8a809fb9d9598b3",
+      "parentUid" : "1d922fbc4fea80e9a9fef3d265b2e5d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1760971120110,
+        "stop" : 1760971154559,
+        "duration" : 34449
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Пароль vtymit 50 символов",
+      "uid" : "a0228a206110d3f2",
+      "parentUid" : "1d922fbc4fea80e9a9fef3d265b2e5d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1760971154563,
+        "stop" : 1760971188583,
+        "duration" : 34020
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Тест с некорректным имейлом uiautotest@photoholdingcom",
+      "uid" : "c25998c50528512b",
+      "parentUid" : "1d922fbc4fea80e9a9fef3d265b2e5d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1760971188587,
+        "stop" : 1760971222623,
+        "duration" : 34036
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Тест с некорректным имейлом testtest",
+      "uid" : "48c51785c2869494",
+      "parentUid" : "1d922fbc4fea80e9a9fef3d265b2e5d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1760971222627,
+        "stop" : 1760971256733,
+        "duration" : 34106
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Тест с некорректным имейлом test.ru",
+      "uid" : "722e652996412393",
+      "parentUid" : "1d922fbc4fea80e9a9fef3d265b2e5d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1760971256738,
+        "stop" : 1760971291937,
+        "duration" : 35199
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Тест с некорректным имейлом test@.ru",
+      "uid" : "d6121ee75cf5a6fb",
+      "parentUid" : "1d922fbc4fea80e9a9fef3d265b2e5d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1760971291942,
+        "stop" : 1760971329493,
+        "duration" : 37551
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "1d922fbc4fea80e9a9fef3d265b2e5d7"
   } ]
 }
