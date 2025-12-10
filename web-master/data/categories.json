@@ -4,95 +4,124 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "Page/AuthPage",
+      "name" : "Page/CheckoutPage",
       "children" : [ {
         "name" : "Проверка DaData",
-        "uid" : "7d53bf38892edfa5",
-        "parentUid" : "93bb278800d33baae30c6f3de4f299cd",
+        "uid" : "5ad5a5bcf07fc8e8",
+        "parentUid" : "b1797e4e95e3d69a88c7474954f56271",
         "status" : "broken",
         "time" : {
-          "start" : 1765378132922,
-          "stop" : 1765378185734,
-          "duration" : 52812
+          "start" : 1765378575726,
+          "stop" : 1765378696386,
+          "duration" : 120660
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "Пополнение лицевого счёта в личном кабинете",
-        "uid" : "f207f1c669444c01",
-        "parentUid" : "93bb278800d33baae30c6f3de4f299cd",
+        "name" : "Оплата Paykeeper QR",
+        "uid" : "6d1b4d46d53e3f60",
+        "parentUid" : "b1797e4e95e3d69a88c7474954f56271",
         "status" : "broken",
         "time" : {
-          "start" : 1765378245330,
-          "stop" : 1765378302127,
-          "duration" : 56797
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Добавление в корзину карманного календарика",
-        "uid" : "5034031966966eae",
-        "parentUid" : "93bb278800d33baae30c6f3de4f299cd",
-        "status" : "broken",
-        "time" : {
-          "start" : 1765378302140,
-          "stop" : 1765378352855,
-          "duration" : 50715
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Создание книги в онлайн-редакторе",
-        "uid" : "aaec7729ee034fa2",
-        "parentUid" : "93bb278800d33baae30c6f3de4f299cd",
-        "status" : "broken",
-        "time" : {
-          "start" : 1765378352858,
-          "stop" : 1765378399989,
-          "duration" : 47131
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Загрузка фото в альбом",
-        "uid" : "3c240061e2202547",
-        "parentUid" : "93bb278800d33baae30c6f3de4f299cd",
-        "status" : "broken",
-        "time" : {
-          "start" : 1765378399992,
-          "stop" : 1765378448005,
-          "duration" : 48013
+          "start" : 1765378696400,
+          "stop" : 1765378812238,
+          "duration" : 115838
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "93bb278800d33baae30c6f3de4f299cd"
+      "uid" : "b1797e4e95e3d69a88c7474954f56271"
+    }, {
+      "name" : "Page/PaykeeperCheckPage",
+      "children" : [ {
+        "name" : "Пополнение лицевого счёта в личном кабинете",
+        "uid" : "12a719310d6056a4",
+        "parentUid" : "7429a03b0ba7050e091c1e6f0cfe180d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1765378812253,
+          "stop" : 1765378943773,
+          "duration" : 131520
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7429a03b0ba7050e091c1e6f0cfe180d"
+    }, {
+      "name" : "Page/OnlineOrder",
+      "children" : [ {
+        "name" : "Создание книги в онлайн-редакторе",
+        "uid" : "7e760aa30a28e06b",
+        "parentUid" : "78699f1360b03abc0942a0bdc4bc539d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1765378943776,
+          "stop" : 1765379044871,
+          "duration" : 101095
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "78699f1360b03abc0942a0bdc4bc539d"
+    }, {
+      "name" : "Page/methods/OrderHistoryPage",
+      "children" : [ {
+        "name" : "DemoOrderTest",
+        "uid" : "e73befc9762f5ce2",
+        "parentUid" : "ad55db83b7bfaabe6b2b69c6d58e0fdb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1765379382318,
+          "stop" : 1765379382318,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ad55db83b7bfaabe6b2b69c6d58e0fdb"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   }, {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Invalid element state [by text: Войти]: element click intercepted: Element <span class=\"Button-module_label_kaVWl\">...</span> is not clickable at point (959, 517). Other element would receive the click: <iframe id=\"fl-1015974\" title=\"Flocktory widget\" frameborder=\"0\" scrolling=\"no\" class=\"flocktory-widget\" style=\"width: 1080px; height: 1029px; position: static; top: auto; left: auto; display: block; margin: 0px auto; transform: none; opacity: 1; transition: opacity 1s ease-in;\"></iframe>\nScreenshot: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1765378316918.2.png\nPage source: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1765378316918.2.html\nTimeout: 20 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <span class=\"Button-module_label_kaVWl\">...</span> is not clickable at point (959, 517). Other element would receive the click: <iframe id=\"fl-1015974\" title=\"Flocktory widget\" frameborder=\"0\" scrolling=\"no\" class=\"flocktory-widget\" style=\"width: 1080px; height: 1029px; position: static; top: auto; left: auto; display: block; margin: 0px auto; transform: none; opacity: 1; transition: opacity 1s ease-in;\"></iframe>",
+      "name" : "Invalid element state [button.add-photo--js]: element click intercepted: Element <button class=\"button button-small button-success action-panel-action--js add-photo--js\" style=\"\">...</button> is not clickable at point (1398, 609). Other element would receive the click: <iframe id=\"fl-1015974\" title=\"Flocktory widget\" frameborder=\"0\" scrolling=\"no\" class=\"flocktory-widget\" style=\"width: 1080px; height: 1029px; position: static; top: auto; left: auto; display: block; margin: 0px auto; transform: none; opacity: 1; transition: opacity 1s ease-in;\"></iframe>\nScreenshot: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1765379170097.3.png\nPage source: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1765379170097.3.html\nTimeout: 20 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <button class=\"button button-small button-success action-panel-action--js add-photo--js\" style=\"\">...</button> is not clickable at point (1398, 609). Other element would receive the click: <iframe id=\"fl-1015974\" title=\"Flocktory widget\" frameborder=\"0\" scrolling=\"no\" class=\"flocktory-widget\" style=\"width: 1080px; height: 1029px; position: static; top: auto; left: auto; display: block; margin: 0px auto; transform: none; opacity: 1; transition: opacity 1s ease-in;\"></iframe>",
       "children" : [ {
-        "name" : "Оплата Paykeeper QR",
-        "uid" : "d5d0a66bd58fdbd6",
-        "parentUid" : "0a5497d7a7434696b6f0bb74f8a40bf4",
+        "name" : "Добавление в корзину карманного календарика",
+        "uid" : "2811cb393660d301",
+        "parentUid" : "cf11d8f5df555a805ee567f833360100",
         "status" : "failed",
         "time" : {
-          "start" : 1765378230490,
-          "stop" : 1765378321962,
-          "duration" : 91472
+          "start" : 1765379044885,
+          "stop" : 1765379172370,
+          "duration" : 127485
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "0a5497d7a7434696b6f0bb74f8a40bf4"
+      "uid" : "cf11d8f5df555a805ee567f833360100"
+    }, {
+      "name" : "Invalid element state [div.user-menu-item-title[1]]: element click intercepted: Element <div class=\"user-menu-item-title\">...</div> is not clickable at point (637, 707). Other element would receive the click: <iframe id=\"fl-1015974\" title=\"Flocktory widget\" frameborder=\"0\" scrolling=\"no\" class=\"flocktory-widget\" style=\"width: 1080px; height: 1029px; position: static; top: auto; left: auto; display: block; margin: 0px auto; transform: none; opacity: 1; transition: opacity 1s ease-in;\"></iframe>\nScreenshot: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1765379379958.4.png\nPage source: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1765379379958.4.html\nTimeout: 20 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <div class=\"user-menu-item-title\">...</div> is not clickable at point (637, 707). Other element would receive the click: <iframe id=\"fl-1015974\" title=\"Flocktory widget\" frameborder=\"0\" scrolling=\"no\" class=\"flocktory-widget\" style=\"width: 1080px; height: 1029px; position: static; top: auto; left: auto; display: block; margin: 0px auto; transform: none; opacity: 1; transition: opacity 1s ease-in;\"></iframe>",
+      "children" : [ {
+        "name" : "Загрузка фото в альбом",
+        "uid" : "5d3a290013ae0dc3",
+        "parentUid" : "c60a36f13ada87e759bd05af972d4ed0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1765379253988,
+          "stop" : 1765379382300,
+          "duration" : 128312
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c60a36f13ada87e759bd05af972d4ed0"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
