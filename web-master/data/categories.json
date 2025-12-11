@@ -4,23 +4,74 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "File not found: /Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/src/test/java/resources/photos/girl.jpeg",
+      "name" : "Page/PayApiMethods",
       "children" : [ {
-        "name" : "Загрузка фото в альбом",
-        "uid" : "1a900f92acfaaee",
-        "parentUid" : "e11a1b11748d14158d6feccdb05b7994",
+        "name" : "Проверка DaData",
+        "uid" : "d5571cd674d0ea3b",
+        "parentUid" : "16f48be8c0de864abe322b561927eb8f",
         "status" : "broken",
         "time" : {
-          "start" : 1765475346965,
-          "stop" : 1765475515209,
-          "duration" : 168244
+          "start" : 1765476031164,
+          "stop" : 1765476097828,
+          "duration" : 66664
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Оплата Paykeeper QR",
+        "uid" : "260a3a63a7bce5a2",
+        "parentUid" : "16f48be8c0de864abe322b561927eb8f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1765476097843,
+          "stop" : 1765476165237,
+          "duration" : 67394
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "e11a1b11748d14158d6feccdb05b7994"
+      "uid" : "16f48be8c0de864abe322b561927eb8f"
+    }, {
+      "name" : "Page/OnlineOrder",
+      "children" : [ {
+        "name" : "Создание книги в онлайн-редакторе",
+        "uid" : "35219500614beae2",
+        "parentUid" : "78699f1360b03abc0942a0bdc4bc539d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1765476165251,
+          "stop" : 1765476317429,
+          "duration" : 152178
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "78699f1360b03abc0942a0bdc4bc539d"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Element not found {by text: Создать альбом}\nExpected: visible\nScreenshot: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1765476508732.1.png\nPage source: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1765476508732.1.html\nTimeout: 20 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
+      "children" : [ {
+        "name" : "Загрузка фото в альбом",
+        "uid" : "3806867ce6330071",
+        "parentUid" : "8c9abfc66f35f507676c77c6383523c0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1765476317443,
+          "stop" : 1765476510439,
+          "duration" : 192996
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8c9abfc66f35f507676c77c6383523c0"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
 }
