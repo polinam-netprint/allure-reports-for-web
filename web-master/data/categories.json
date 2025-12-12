@@ -2,46 +2,106 @@
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
   "children" : [ {
-    "name" : "Product defects",
-    "children" : [ {
-      "name" : "Element not found {by text: Календари}\nExpected: exist\nScreenshot: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1765529424580.0.png\nPage source: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1765529424580.0.html\nTimeout: 20 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
-      "children" : [ {
-        "name" : "Добавление в корзину карманного календарика",
-        "uid" : "f772264957d57503",
-        "parentUid" : "b9ba14827f69a482745fb1e5dc010c5e",
-        "status" : "failed",
-        "time" : {
-          "start" : 1765529255916,
-          "stop" : 1765529427019,
-          "duration" : 171103
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "b9ba14827f69a482745fb1e5dc010c5e"
-    } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
-  }, {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "Page/UploadPhotosPage",
+      "name" : "Page/PayApiMethods",
       "children" : [ {
-        "name" : "Загрузка фото в альбом",
-        "uid" : "11fd9a01a7498002",
-        "parentUid" : "6a939e2a94f902ad9cf132b2edc48ee5",
+        "name" : "Проверка DaData",
+        "uid" : "4299bfc32e38be7d",
+        "parentUid" : "16f48be8c0de864abe322b561927eb8f",
         "status" : "broken",
         "time" : {
-          "start" : 1765529349041,
-          "stop" : 1765529526524,
-          "duration" : 177483
+          "start" : 1765529992881,
+          "stop" : 1765530054469,
+          "duration" : 61588
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Оплата Paykeeper QR",
+        "uid" : "b0536ad4de0d64ac",
+        "parentUid" : "16f48be8c0de864abe322b561927eb8f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1765530147968,
+          "stop" : 1765530218275,
+          "duration" : 70307
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "6a939e2a94f902ad9cf132b2edc48ee5"
+      "uid" : "16f48be8c0de864abe322b561927eb8f"
+    }, {
+      "name" : "Page/ProductCardPage",
+      "children" : [ {
+        "name" : "Заказ постера: неавторизованный юзер",
+        "uid" : "9b51e1662c2a9cef",
+        "parentUid" : "77bfd29cc5ade1a181c08a32cb8ee75d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1765530054479,
+          "stop" : 1765530147956,
+          "duration" : 93477
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Добавление в корзину карманного календарика",
+        "uid" : "8e899b911a2550f2",
+        "parentUid" : "77bfd29cc5ade1a181c08a32cb8ee75d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1765530218285,
+          "stop" : 1765530368795,
+          "duration" : 150510
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "77bfd29cc5ade1a181c08a32cb8ee75d"
+    }, {
+      "name" : "Page/OnlineOrder",
+      "children" : [ {
+        "name" : "Создание книги в онлайн-редакторе",
+        "uid" : "382b78cf658f220e",
+        "parentUid" : "78699f1360b03abc0942a0bdc4bc539d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1765530368807,
+          "stop" : 1765530521625,
+          "duration" : 152818
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "78699f1360b03abc0942a0bdc4bc539d"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Element not found {by text: Создать альбом}\nExpected: visible\nScreenshot: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1765530696297.1.png\nPage source: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1765530696297.1.html\nTimeout: 20 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
+      "children" : [ {
+        "name" : "Загрузка фото в альбом",
+        "uid" : "630d5aaceaa84041",
+        "parentUid" : "89cb16437007cf5bf279c5883d4eb0b1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1765530521638,
+          "stop" : 1765530698175,
+          "duration" : 176537
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "89cb16437007cf5bf279c5883d4eb0b1"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
 }
