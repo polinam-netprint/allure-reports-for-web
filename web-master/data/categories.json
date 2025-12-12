@@ -4,23 +4,104 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "File not found: /Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/src/test/java/resources/photos/girl.jpeg",
+      "name" : "Page/PayApiMethods",
       "children" : [ {
-        "name" : "Загрузка фото в альбом",
-        "uid" : "7250ca14d4b52d02",
-        "parentUid" : "e11a1b11748d14158d6feccdb05b7994",
+        "name" : "Проверка DaData",
+        "uid" : "453a0c9ae1a99bff",
+        "parentUid" : "16f48be8c0de864abe322b561927eb8f",
         "status" : "broken",
         "time" : {
-          "start" : 1765525514812,
-          "stop" : 1765525680313,
-          "duration" : 165501
+          "start" : 1765526375760,
+          "stop" : 1765526440411,
+          "duration" : 64651
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Оплата Paykeeper QR",
+        "uid" : "f2fc37fe6ed8af18",
+        "parentUid" : "16f48be8c0de864abe322b561927eb8f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1765526537168,
+          "stop" : 1765526610349,
+          "duration" : 73181
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "e11a1b11748d14158d6feccdb05b7994"
+      "uid" : "16f48be8c0de864abe322b561927eb8f"
+    }, {
+      "name" : "Page/MainMenuPage",
+      "children" : [ {
+        "name" : "Заказ постера: неавторизованный юзер",
+        "uid" : "da4321d4a503328d",
+        "parentUid" : "dcdb6f75d299a0dabfcf2c4c21d59d15",
+        "status" : "broken",
+        "time" : {
+          "start" : 1765526440414,
+          "stop" : 1765526537164,
+          "duration" : 96750
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Добавление в корзину карманного календарика",
+        "uid" : "48420c6cc6e1c061",
+        "parentUid" : "dcdb6f75d299a0dabfcf2c4c21d59d15",
+        "status" : "broken",
+        "time" : {
+          "start" : 1765526610361,
+          "stop" : 1765526771166,
+          "duration" : 160805
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "dcdb6f75d299a0dabfcf2c4c21d59d15"
+    }, {
+      "name" : "Page/OnlineOrder",
+      "children" : [ {
+        "name" : "Создание книги в онлайн-редакторе",
+        "uid" : "c54ea349587f990d",
+        "parentUid" : "78699f1360b03abc0942a0bdc4bc539d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1765526771170,
+          "stop" : 1765526921960,
+          "duration" : 150790
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "78699f1360b03abc0942a0bdc4bc539d"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Element not found {by text: Создать альбом}\nExpected: visible\nScreenshot: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1765527103985.0.png\nPage source: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1765527103985.0.html\nTimeout: 20 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
+      "children" : [ {
+        "name" : "Загрузка фото в альбом",
+        "uid" : "ce5c207a2cc5efbf",
+        "parentUid" : "dddceca0002fed4311bb0c733dab9843",
+        "status" : "failed",
+        "time" : {
+          "start" : 1765526921963,
+          "stop" : 1765527105664,
+          "duration" : 183701
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "dddceca0002fed4311bb0c733dab9843"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
 }
