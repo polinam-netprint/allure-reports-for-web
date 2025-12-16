@@ -7,26 +7,26 @@
       "name" : "Page/PayApiMethods",
       "children" : [ {
         "name" : "Проверка DaData",
-        "uid" : "f75fe0f2c4335a9f",
+        "uid" : "20ff2c342444dad",
         "parentUid" : "16f48be8c0de864abe322b561927eb8f",
         "status" : "broken",
         "time" : {
-          "start" : 1765874765425,
-          "stop" : 1765874826498,
-          "duration" : 61073
+          "start" : 1765875661245,
+          "stop" : 1765875731097,
+          "duration" : 69852
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Оплата Paykeeper QR",
-        "uid" : "c1f3e7971c85ca00",
+        "uid" : "c91d218fab261c81",
         "parentUid" : "16f48be8c0de864abe322b561927eb8f",
         "status" : "broken",
         "time" : {
-          "start" : 1765874826501,
-          "stop" : 1765874898114,
-          "duration" : 71613
+          "start" : 1765875731101,
+          "stop" : 1765875805229,
+          "duration" : 74128
         },
         "flaky" : false,
         "newFailed" : false,
@@ -34,23 +34,44 @@
       } ],
       "uid" : "16f48be8c0de864abe322b561927eb8f"
     }, {
-      "name" : "File not found: /Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/src/test/java/resources/photos/girl.jpeg",
+      "name" : "Page/OnlineOrder",
       "children" : [ {
-        "name" : "Загрузка фото в альбом",
-        "uid" : "ff09ab1c69a4ce18",
-        "parentUid" : "e11a1b11748d14158d6feccdb05b7994",
+        "name" : "Создание книги в онлайн-редакторе",
+        "uid" : "8e2a7cdabbbfa9a9",
+        "parentUid" : "78699f1360b03abc0942a0bdc4bc539d",
         "status" : "broken",
         "time" : {
-          "start" : 1765874898129,
-          "stop" : 1765875066599,
-          "duration" : 168470
+          "start" : 1765875805244,
+          "stop" : 1765875959279,
+          "duration" : 154035
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "e11a1b11748d14158d6feccdb05b7994"
+      "uid" : "78699f1360b03abc0942a0bdc4bc539d"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Invalid element state [div.user-menu-item-title[1]]: element click intercepted: Element <div class=\"user-menu-item-title\">...</div> is not clickable at point (637, 775). Other element would receive the click: <iframe id=\"fl-1015974\" title=\"Flocktory widget\" frameborder=\"0\" scrolling=\"no\" class=\"flocktory-widget\" style=\"width: 1024px; height: 1024px; position: static; top: auto; left: auto; display: block; margin: 0px auto; transform: none; opacity: 1; transition: opacity 1s ease-in;\"></iframe>\nScreenshot: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1765876139312.0.png\nPage source: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1765876139312.0.html\nTimeout: 20 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <div class=\"user-menu-item-title\">...</div> is not clickable at point (637, 775). Other element would receive the click: <iframe id=\"fl-1015974\" title=\"Flocktory widget\" frameborder=\"0\" scrolling=\"no\" class=\"flocktory-widget\" style=\"width: 1024px; height: 1024px; position: static; top: auto; left: auto; display: block; margin: 0px auto; transform: none; opacity: 1; transition: opacity 1s ease-in;\"></iframe>",
+      "children" : [ {
+        "name" : "Загрузка фото в альбом",
+        "uid" : "cd910f56cfb7cd2b",
+        "parentUid" : "f84a3f8559695970750064c00e97d30c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1765875959282,
+          "stop" : 1765876140927,
+          "duration" : 181645
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f84a3f8559695970750064c00e97d30c"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
 }
