@@ -7,13 +7,26 @@
       "name" : "Page/PayApiMethods",
       "children" : [ {
         "name" : "Проверка DaData",
-        "uid" : "439f824a868622bf",
+        "uid" : "69dc4b62fb94aae9",
         "parentUid" : "16f48be8c0de864abe322b561927eb8f",
         "status" : "broken",
         "time" : {
-          "start" : 1766491615854,
-          "stop" : 1766491700723,
-          "duration" : 84869
+          "start" : 1766517166536,
+          "stop" : 1766517246180,
+          "duration" : 79644
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Оплата Paykeeper QR",
+        "uid" : "6f5632bc9d5020c8",
+        "parentUid" : "16f48be8c0de864abe322b561927eb8f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1766517377309,
+          "stop" : 1766517466259,
+          "duration" : 88950
         },
         "flaky" : false,
         "newFailed" : false,
@@ -21,33 +34,16 @@
       } ],
       "uid" : "16f48be8c0de864abe322b561927eb8f"
     }, {
-      "name" : "Page/PaykeeperCheckPage",
-      "children" : [ {
-        "name" : "Пополнение лицевого счёта в личном кабинете",
-        "uid" : "34ced23ca1b14521",
-        "parentUid" : "7429a03b0ba7050e091c1e6f0cfe180d",
-        "status" : "broken",
-        "time" : {
-          "start" : 1766491938465,
-          "stop" : 1766492180267,
-          "duration" : 241802
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "7429a03b0ba7050e091c1e6f0cfe180d"
-    }, {
       "name" : "Page/MainMenuPage",
       "children" : [ {
-        "name" : "Добавление в корзину карманного календарика",
-        "uid" : "540340c3f7f1b012",
+        "name" : "Заказ постера: неавторизованный юзер",
+        "uid" : "9d1398726e5589e9",
         "parentUid" : "dcdb6f75d299a0dabfcf2c4c21d59d15",
         "status" : "broken",
         "time" : {
-          "start" : 1766492180276,
-          "stop" : 1766492401185,
-          "duration" : 220909
+          "start" : 1766517246184,
+          "stop" : 1766517377305,
+          "duration" : 131121
         },
         "flaky" : false,
         "newFailed" : false,
@@ -55,40 +51,44 @@
       } ],
       "uid" : "dcdb6f75d299a0dabfcf2c4c21d59d15"
     }, {
-      "name" : "Page/OnlineOrder",
-      "children" : [ {
-        "name" : "Создание книги в онлайн-редакторе",
-        "uid" : "dd4698e05d306fcd",
-        "parentUid" : "78699f1360b03abc0942a0bdc4bc539d",
-        "status" : "broken",
-        "time" : {
-          "start" : 1766492401188,
-          "stop" : 1766492654064,
-          "duration" : 252876
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "78699f1360b03abc0942a0bdc4bc539d"
-    }, {
-      "name" : "File not found: /Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/src/test/java/resources/photos/girl.jpeg",
+      "name" : "Page/UploadPhotosPage",
       "children" : [ {
         "name" : "Загрузка фото в альбом",
-        "uid" : "b3ed3d7d85073f09",
-        "parentUid" : "e11a1b11748d14158d6feccdb05b7994",
+        "uid" : "534ea9e773e87d76",
+        "parentUid" : "6a939e2a94f902ad9cf132b2edc48ee5",
         "status" : "broken",
         "time" : {
-          "start" : 1766492654067,
-          "stop" : 1766492888040,
-          "duration" : 233973
+          "start" : 1766517887261,
+          "stop" : 1766518128458,
+          "duration" : 241197
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "e11a1b11748d14158d6feccdb05b7994"
+      "uid" : "6a939e2a94f902ad9cf132b2edc48ee5"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Element not found {div.porch-album-tile-real-cover}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1766518122043.0.png\nPage source: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1766518122043.0.html\nTimeout: 20 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"div.porch-album-tile-real-cover\"}",
+      "children" : [ {
+        "name" : "Создание книги в онлайн-редакторе",
+        "uid" : "cd2ae66a36b82804",
+        "parentUid" : "157e1e3c84543e0294b0e92d0b546b7b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1766517812381,
+          "stop" : 1766518124145,
+          "duration" : 311764
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "157e1e3c84543e0294b0e92d0b546b7b"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
 }
