@@ -2,42 +2,89 @@
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
   "children" : [ {
-    "name" : "Product defects",
+    "name" : "Test defects",
     "children" : [ {
-      "name" : "Invalid element state [button.add-photo--js]: element click intercepted: Element <button class=\"button button-small button-success action-panel-action--js add-photo--js\" style=\"\">...</button> is not clickable at point (1398, 609). Other element would receive the click: <div class=\"flocktory-widget-overlay\" style=\"display: flex; z-index: 2147483647; position: fixed; top: 0px; left: 0px; justify-content: center; align-items: center; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.8); transform: none;\" data-showed-up=\"true\">...</div>\nScreenshot: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1769803047484.2.png\nPage source: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1769803047484.2.html\nTimeout: 20 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <button class=\"button button-small button-success action-panel-action--js add-photo--js\" style=\"\">...</button> is not clickable at point (1398, 609). Other element would receive the click: <div class=\"flocktory-widget-overlay\" style=\"display: flex; z-index: 2147483647; position: fixed; top: 0px; left: 0px; justify-content: center; align-items: center; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.8); transform: none;\" data-showed-up=\"true\">...</div>",
+      "name" : "Page/PayApiMethods",
       "children" : [ {
-        "name" : "Добавление в корзину карманного календарика",
-        "uid" : "2b905b98df12aed0",
-        "parentUid" : "b864cf5116d95800969219c36a9ba0b2",
-        "status" : "failed",
+        "name" : "Проверка DaData",
+        "uid" : "4a91db9be89db5b",
+        "parentUid" : "16f48be8c0de864abe322b561927eb8f",
+        "status" : "broken",
         "time" : {
-          "start" : 1769802938520,
-          "stop" : 1769803050696,
-          "duration" : 112176
+          "start" : 1769803506835,
+          "stop" : 1769803548895,
+          "duration" : 42060
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Оплата Paykeeper QR",
+        "uid" : "197d73ba81c41b6c",
+        "parentUid" : "16f48be8c0de864abe322b561927eb8f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1769803605227,
+          "stop" : 1769803659061,
+          "duration" : 53834
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "b864cf5116d95800969219c36a9ba0b2"
+      "uid" : "16f48be8c0de864abe322b561927eb8f"
     }, {
-      "name" : "Element should be clickable: interactable and enabled {a[href='https://netprint.ru/moscow/photobooks/hardbook']}\nElement: '<a data-sub-link=\"sub-link\" href=\"https://netprint.ru/moscow/photobooks/hardbook\" displayed:false></a>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1769803173820.3.png\nPage source: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1769803173820.3.html\nTimeout: 20 s.",
+      "name" : "Page/MainMenuPage",
       "children" : [ {
-        "name" : "Создание книги в онлайн-редакторе",
-        "uid" : "ddeb1078be726000",
-        "parentUid" : "622d68fa452e20ed7b8356c1bf5f0205",
-        "status" : "failed",
+        "name" : "Заказ постера: неавторизованный юзер",
+        "uid" : "bc539c4afefbdec9",
+        "parentUid" : "dcdb6f75d299a0dabfcf2c4c21d59d15",
+        "status" : "broken",
         "time" : {
-          "start" : 1769803050712,
-          "stop" : 1769803179729,
-          "duration" : 129017
+          "start" : 1769803548900,
+          "stop" : 1769803605223,
+          "duration" : 56323
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "622d68fa452e20ed7b8356c1bf5f0205"
+      "uid" : "dcdb6f75d299a0dabfcf2c4c21d59d15"
+    }, {
+      "name" : "Page/PaykeeperCheckPage",
+      "children" : [ {
+        "name" : "Пополнение лицевого счёта в личном кабинете",
+        "uid" : "c9880293e3a796de",
+        "parentUid" : "7429a03b0ba7050e091c1e6f0cfe180d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1769803659073,
+          "stop" : 1769803771563,
+          "duration" : 112490
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7429a03b0ba7050e091c1e6f0cfe180d"
+    }, {
+      "name" : "Page/UploadPhotosPage",
+      "children" : [ {
+        "name" : "Загрузка фото в альбом",
+        "uid" : "d5fe1392c78f9940",
+        "parentUid" : "6a939e2a94f902ad9cf132b2edc48ee5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1769803771576,
+          "stop" : 1769803886958,
+          "duration" : 115382
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6a939e2a94f902ad9cf132b2edc48ee5"
     } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]
 }
