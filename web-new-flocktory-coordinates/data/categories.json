@@ -2,25 +2,115 @@
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
   "children" : [ {
-    "name" : "Product defects",
+    "name" : "Test defects",
     "children" : [ {
-      "name" : "Element not found {by text: Создать альбом}\nExpected: visible\nScreenshot: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1771398853215.0.png\nPage source: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1771398853215.0.html\nTimeout: 30 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
+      "name" : "Page/PayApiMethods",
       "children" : [ {
-        "name" : "Загрузка фото в альбом",
-        "uid" : "81b0254bb997a29b",
-        "parentUid" : "fb07fd53fd5e5e77d6fd12ddfdacd8ba",
-        "status" : "failed",
+        "name" : "Проверка DaData",
+        "uid" : "8d585193d9f8e0cb",
+        "parentUid" : "16f48be8c0de864abe322b561927eb8f",
+        "status" : "broken",
         "time" : {
-          "start" : 1771398707979,
-          "stop" : 1771398855948,
-          "duration" : 147969
+          "start" : 1771399766556,
+          "stop" : 1771399836915,
+          "duration" : 70359
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Оплата Paykeeper QR",
+        "uid" : "6bbb683be63c7245",
+        "parentUid" : "16f48be8c0de864abe322b561927eb8f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1771399918185,
+          "stop" : 1771400004132,
+          "duration" : 85947
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "fb07fd53fd5e5e77d6fd12ddfdacd8ba"
+      "uid" : "16f48be8c0de864abe322b561927eb8f"
+    }, {
+      "name" : "Page/MainMenuPage",
+      "children" : [ {
+        "name" : "Заказ постера: неавторизованный юзер",
+        "uid" : "d86fcded33fd88d1",
+        "parentUid" : "dcdb6f75d299a0dabfcf2c4c21d59d15",
+        "status" : "broken",
+        "time" : {
+          "start" : 1771399836920,
+          "stop" : 1771399918181,
+          "duration" : 81261
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Добавление в корзину карманного календарика",
+        "uid" : "ccebec791973df66",
+        "parentUid" : "dcdb6f75d299a0dabfcf2c4c21d59d15",
+        "status" : "broken",
+        "time" : {
+          "start" : 1771400138785,
+          "stop" : 1771400231363,
+          "duration" : 92578
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Создание книги в онлайн-редакторе",
+        "uid" : "b6790e37873deed",
+        "parentUid" : "dcdb6f75d299a0dabfcf2c4c21d59d15",
+        "status" : "broken",
+        "time" : {
+          "start" : 1771400231367,
+          "stop" : 1771400337204,
+          "duration" : 105837
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "dcdb6f75d299a0dabfcf2c4c21d59d15"
+    }, {
+      "name" : "Page/PaykeeperCheckPage",
+      "children" : [ {
+        "name" : "Пополнение лицевого счёта в личном кабинете",
+        "uid" : "8f1a759f0fbb817d",
+        "parentUid" : "7429a03b0ba7050e091c1e6f0cfe180d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1771400004141,
+          "stop" : 1771400138775,
+          "duration" : 134634
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7429a03b0ba7050e091c1e6f0cfe180d"
+    }, {
+      "name" : "timeout: Timed out receiving message from renderer: 59.455\n  (Session info: chrome=145.0.7632.76)\nBuild info: version: '4.29.0', revision: '5fc1ec94cb'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6', java.version: '24.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [7164da9c4416123fc4dcaa43b7c10fae, get {url=https://netprint.ru/order/profile}]\nselenide.url: https://netprint.ru/order/profile\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 145.0.7632.76, chrome: {chromedriverVersion: 145.0.7632.76 (ee36f024f43a..., userDataDir: /var/folders/hx/tkw53wds467...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61119}, goog:processID: 10580, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:61119/devtoo..., se:cdpVersion: 145.0.7632.76, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nselenide.baseUrl: https://netprint.ru/\nSession ID: 7164da9c4416123fc4dcaa43b7c10fae",
+      "children" : [ {
+        "name" : "Загрузка фото в альбом",
+        "uid" : "df361c901dd298ee",
+        "parentUid" : "9132dd138f11f68dacede8b78b8e496a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1771400337208,
+          "stop" : 1771400504461,
+          "duration" : 167253
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9132dd138f11f68dacede8b78b8e496a"
     } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]
 }
