@@ -4,61 +4,57 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Element should be visible {div.user-layout-item}\nElement: '<div class=\"user-layout-item\" data-album_id=\"{%{user_layout_album_id}%}\" data-guid=\"{%{user_layout_guid}%}\" data-icon_url=\"{%{user_layout_icon}%}\" id=\"user_layout_{%{user_layout_guid}%}\" displayed:false></div>'\nActual value: hidden\nScreenshot: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1777287564548.3.png\nPage source: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1777287564548.3.html\nTimeout: 20 s.",
+      "name" : "Element not found {span.select2-selection__rendered}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1777289308417.4.png\nPage source: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1777289308417.4.html\nTimeout: 20 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"span.select2-selection__rendered\"}",
+      "children" : [ {
+        "name" : "Проверка DaData",
+        "uid" : "c7beb73e24e6e7a",
+        "parentUid" : "d3449c1a586b03e4e2f96c7e73c0bcfa",
+        "status" : "failed",
+        "time" : {
+          "start" : 1777289210259,
+          "stop" : 1777289308942,
+          "duration" : 98683
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d3449c1a586b03e4e2f96c7e73c0bcfa"
+    }, {
+      "name" : "Element should be visible {div.user-layout-item}\nElement: '<div class=\"user-layout-item\" data-album_id=\"{%{user_layout_album_id}%}\" data-guid=\"{%{user_layout_guid}%}\" data-icon_url=\"{%{user_layout_icon}%}\" id=\"user_layout_{%{user_layout_guid}%}\" displayed:false></div>'\nActual value: hidden\nScreenshot: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1777289400829.5.png\nPage source: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1777289400829.5.html\nTimeout: 20 s.",
       "children" : [ {
         "name" : "Проверка Моих Макетов-MyMakets",
-        "uid" : "fe6572efc9212650",
-        "parentUid" : "038bbeb8e29bc4edbd94dc63f13eb42a",
+        "uid" : "958dc3c84037d02c",
+        "parentUid" : "f6f3ddebe76bb23117ce40e8aaa23b9e",
         "status" : "failed",
         "time" : {
-          "start" : 1777287485457,
-          "stop" : 1777287565135,
-          "duration" : 79678
+          "start" : 1777289308946,
+          "stop" : 1777289401115,
+          "duration" : 92169
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "038bbeb8e29bc4edbd94dc63f13eb42a"
+      "uid" : "f6f3ddebe76bb23117ce40e8aaa23b9e"
     }, {
-      "name" : "List size mismatch: expected: > 0, actual: 0, collection: td a.filter(visible)\nScreenshot: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1777287881841.4.png\nPage source: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1777287881841.4.html\nTimeout: 15 s.",
+      "name" : "List size mismatch: expected: > 0, actual: 0, collection: div.order-delivery-tile\nScreenshot: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1777289499969.6.png\nPage source: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1777289499969.6.html\nTimeout: 45 s.",
       "children" : [ {
-        "name" : "DemoOrderTest",
-        "uid" : "47be5b2a1f27bc38",
-        "parentUid" : "e97766650082d4ba3c09310893231107",
+        "name" : "Оплата Paykeeper QR",
+        "uid" : "45666f6502c8814",
+        "parentUid" : "5ae027f8804064ff64a684a77dad5a6d",
         "status" : "failed",
         "time" : {
-          "start" : 1777287882340,
-          "stop" : 1777287882340,
-          "duration" : 0
+          "start" : 1777289401119,
+          "stop" : 1777289500489,
+          "duration" : 99370
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "e97766650082d4ba3c09310893231107"
+      "uid" : "5ae027f8804064ff64a684a77dad5a6d"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
-  }, {
-    "name" : "Test defects",
-    "children" : [ {
-      "name" : "timeout\nfrom aborted by navigation: Not attached to an active page\n  (Session info: chrome=147.0.7727.102)\nBuild info: version: '4.43.0', revision: 'dd0f534'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6', java.version: '24.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [2a86866aca0bb6e761e95ca053e3bdd0, refresh {}]\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 147.0.7727.102, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: /var/folders/hx/tkw53wds467...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59738}, goog:processID: 25903, networkConnectionEnabled: false, pageLoadStrategy: none, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59738/devtoo..., se:cdpVersion: 147.0.7727.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 2a86866aca0bb6e761e95ca053e3bdd0",
-      "children" : [ {
-        "name" : "Пополнение лицевого счёта в личном кабинете-TopUpAccount",
-        "uid" : "cfb4d3bbd03b843a",
-        "parentUid" : "d08a7c0a754315338a9caf9f9ec366d5",
-        "status" : "broken",
-        "time" : {
-          "start" : 1777287689836,
-          "stop" : 1777287731454,
-          "duration" : 41618
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "d08a7c0a754315338a9caf9f9ec366d5"
-    } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]
 }
