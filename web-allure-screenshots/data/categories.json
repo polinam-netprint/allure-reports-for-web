@@ -4,16 +4,67 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "clearBasketAPI() FAILED: DELETE /cart/v2/deleteAllProducts ожидали 204, получили 400. Body: {\"status\":\"error\",\"errors\":[{\"code\":400,\"message\":\"\"}]} ==> expected: <204> but was: <400>",
+      "name" : "clearBasketAPI() FAILED: DELETE /cart/v2/deleteAllProducts ожидали 204, получили 429. Body: {\"code\":\"http_error\",\"message\":\"Too Many Attempts.\",\"errors\":[{\"message\":\"Too Many Attempts.\",\"code\":\"http_error\"}]} ==> expected: <204> but was: <429>",
       "children" : [ {
         "name" : "Проверка DaData",
-        "uid" : "d0737c2801669fc9",
+        "uid" : "2054f8397c86b6a9",
+        "parentUid" : "c4244218e0a1e9aec8e2d4ecec20412f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1778612217117,
+          "stop" : 1778612219380,
+          "duration" : 2263
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c4244218e0a1e9aec8e2d4ecec20412f"
+    }, {
+      "name" : "Element not found {span.select2-selection__rendered}\nExpected: visible\nScreenshot: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1778612336361.8.png\nPage source: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1778612336361.8.html\nTimeout: 20 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"span.select2-selection__rendered\"}",
+      "children" : [ {
+        "name" : "Проверка Моих Макетов-MyMakets",
+        "uid" : "4696928039b55ef4",
+        "parentUid" : "e439d2b6d4b90298bb18f6a84bd57f39",
+        "status" : "failed",
+        "time" : {
+          "start" : 1778612219382,
+          "stop" : 1778612337070,
+          "duration" : 117688
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e439d2b6d4b90298bb18f6a84bd57f39"
+    }, {
+      "name" : "Element not found {by text: Фотографии}\nExpected: exist\nScreenshot: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1778612357258.9.png\nPage source: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1778612357258.9.html\nTimeout: 20 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
+      "children" : [ {
+        "name" : "Заказ постера: неавторизованный юзер-PosterOrderUnauthorized",
+        "uid" : "7b57135a9070355",
+        "parentUid" : "1baa116d6ea51accc30c5c6b0cec9e59",
+        "status" : "failed",
+        "time" : {
+          "start" : 1778612337073,
+          "stop" : 1778612357991,
+          "duration" : 20918
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1baa116d6ea51accc30c5c6b0cec9e59"
+    }, {
+      "name" : "clearBasketAPI() FAILED: DELETE /cart/v2/deleteAllProducts ожидали 204, получили 400. Body: {\"status\":\"error\",\"errors\":[{\"code\":400,\"message\":\"\"}]} ==> expected: <204> but was: <400>",
+      "children" : [ {
+        "name" : "Оплата Paykeeper QR",
+        "uid" : "7182fa82d9748580",
         "parentUid" : "8c758aeaa99609015929e32e956ad5ca",
         "status" : "failed",
         "time" : {
-          "start" : 1778608638184,
-          "stop" : 1778608650703,
-          "duration" : 12519
+          "start" : 1778612357995,
+          "stop" : 1778612376959,
+          "duration" : 18964
         },
         "flaky" : false,
         "newFailed" : false,
@@ -21,141 +72,90 @@
       } ],
       "uid" : "8c758aeaa99609015929e32e956ad5ca"
     }, {
-      "name" : "Element should be visible {div.user-layout-item}\nElement: '<div class=\"user-layout-item\" data-album_id=\"{%{user_layout_album_id}%}\" data-guid=\"{%{user_layout_guid}%}\" data-icon_url=\"{%{user_layout_icon}%}\" id=\"user_layout_{%{user_layout_guid}%}\" displayed:false></div>'\nActual value: hidden\nScreenshot: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1778608711718.10.png\nPage source: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1778608711718.10.html\nTimeout: 20 s.",
-      "children" : [ {
-        "name" : "Проверка Моих Макетов-MyMakets",
-        "uid" : "60ba22b21d5cd6ad",
-        "parentUid" : "e998eb6f94bdbb074389dec84b62c46a",
-        "status" : "failed",
-        "time" : {
-          "start" : 1778608650707,
-          "stop" : 1778608712311,
-          "duration" : 61604
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "e998eb6f94bdbb074389dec84b62c46a"
-    }, {
-      "name" : "Invalid element state [with text: тему оформления]: element click intercepted: Element <div class=\"btn btn-primary product-card-bottom-btn-order btn-order--js\" id=\"old-choose-theme-btn-standard\" style=\"\" ga-action-click-type=\"click.ProductPage\" ga-action=\"click\" ga-action-click-omsid=\"PRODUCTION_POSTER\">...</div> is not clickable at point (1358, 23). Other element would receive the click: <span>...</span>\nScreenshot: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1778608734492.11.png\nPage source: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1778608734492.11.html\nTimeout: 20 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <div class=\"btn btn-primary product-card-bottom-btn-order btn-order--js\" id=\"old-choose-theme-btn-standard\" style=\"\" ga-action-click-type=\"click.ProductPage\" ga-action=\"click\" ga-action-click-omsid=\"PRODUCTION_POSTER\">...</div> is not clickable at point (1358, 23). Other element would receive the click: <span>...</span>",
-      "children" : [ {
-        "name" : "Заказ постера: неавторизованный юзер-PosterOrderUnauthorized",
-        "uid" : "594be3be787066bb",
-        "parentUid" : "68314a302423c6234f26310b17900aef",
-        "status" : "failed",
-        "time" : {
-          "start" : 1778608712315,
-          "stop" : 1778608735229,
-          "duration" : 22914
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "68314a302423c6234f26310b17900aef"
-    }, {
-      "name" : "List size mismatch: expected: > 0, actual: 0, collection: div.order-delivery-tile\nScreenshot: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1778608835463.12.png\nPage source: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1778608835463.12.html\nTimeout: 45 s.",
-      "children" : [ {
-        "name" : "Оплата Paykeeper QR",
-        "uid" : "e78413cb2fd9c6a5",
-        "parentUid" : "a9cd308a617003bf1cb59f62e7b0174b",
-        "status" : "failed",
-        "time" : {
-          "start" : 1778608735232,
-          "stop" : 1778608836245,
-          "duration" : 101013
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "a9cd308a617003bf1cb59f62e7b0174b"
-    }, {
-      "name" : "Element not found {by text: Фотокниги}\nExpected: exist\nScreenshot: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1778608904272.13.png\nPage source: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1778608904272.13.html\nTimeout: 20 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
+      "name" : "Element not found {by text: Фотокниги}\nExpected: exist\nScreenshot: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1778612431845.10.png\nPage source: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1778612431845.10.html\nTimeout: 20 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
       "children" : [ {
         "name" : "Создание макета в SVG-редакторе",
-        "uid" : "12268dc9200d975",
-        "parentUid" : "7c2cee55418acc21a6920ab2739f9045",
+        "uid" : "1650d80d5bd92045",
+        "parentUid" : "72fef4209ca74ba7d63f39217ee0ac64",
         "status" : "failed",
         "time" : {
-          "start" : 1778608836248,
-          "stop" : 1778608905038,
-          "duration" : 68790
+          "start" : 1778612376967,
+          "stop" : 1778612432750,
+          "duration" : 55783
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "7c2cee55418acc21a6920ab2739f9045"
+      "uid" : "72fef4209ca74ba7d63f39217ee0ac64"
     }, {
-      "name" : "Element not found {div.porch-album-tile-cover[1]}\nExpected: visible\nScreenshot: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1778609022424.14.png\nPage source: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1778609022424.14.html\nTimeout: 60 s.\nCaused by: java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 0",
+      "name" : "Element not found {div.porch-album-tile-cover[1]}\nExpected: visible\nScreenshot: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1778612521176.11.png\nPage source: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1778612521176.11.html\nTimeout: 60 s.\nCaused by: java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 0",
       "children" : [ {
         "name" : "Добавление в корзину карманного календарика-AddPocketCalendar",
-        "uid" : "acb7222cb3470d58",
-        "parentUid" : "9b2604ddc00760563a18c58c639f387a",
+        "uid" : "aaf97c1a95378ac5",
+        "parentUid" : "c5947e5f54d7e3b0f67973db1abab132",
         "status" : "failed",
         "time" : {
-          "start" : 1778608934941,
-          "stop" : 1778609023036,
-          "duration" : 88095
+          "start" : 1778612432754,
+          "stop" : 1778612521899,
+          "duration" : 89145
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "9b2604ddc00760563a18c58c639f387a"
+      "uid" : "c5947e5f54d7e3b0f67973db1abab132"
     }, {
-      "name" : "Element not found {by text: Фотокниги}\nExpected: exist\nScreenshot: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1778609066685.15.png\nPage source: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1778609066685.15.html\nTimeout: 20 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
+      "name" : "Element not found {by text: Фотокниги}\nExpected: exist\nScreenshot: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1778612620291.12.png\nPage source: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1778612620291.12.html\nTimeout: 20 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
       "children" : [ {
         "name" : "Создание книги в онлайн-редакторе-BookOnlineEditor",
-        "uid" : "77a7d18efa8828f3",
-        "parentUid" : "dcd675dd756c1d04b842496f9b1d71e2",
+        "uid" : "efd66a70a7299461",
+        "parentUid" : "415a0a1a9c623f79235c135bc9156b9f",
         "status" : "failed",
         "time" : {
-          "start" : 1778609023040,
-          "stop" : 1778609067448,
-          "duration" : 44408
+          "start" : 1778612521903,
+          "stop" : 1778612621034,
+          "duration" : 99131
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "dcd675dd756c1d04b842496f9b1d71e2"
+      "uid" : "415a0a1a9c623f79235c135bc9156b9f"
     }, {
-      "name" : "Element not found {input#upload_files_button}\nExpected: exist\nScreenshot: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1778609154904.16.png\nPage source: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1778609154904.16.html\nTimeout: 20 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"input#upload_files_button\"}",
+      "name" : "Element not found {span.h2-like}\nExpected: exist\nScreenshot: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1778612692210.13.png\nPage source: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1778612692210.13.html\nTimeout: 20 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"span.h2-like\"}",
       "children" : [ {
         "name" : "Загрузка фото в альбом-UploadPhotoToAlbum",
-        "uid" : "ae51ef57896bd05b",
-        "parentUid" : "b37a7d7d6d4733138d7e6e209cf2af75",
+        "uid" : "b17fa0ad0ef6bc3d",
+        "parentUid" : "c40c1f142fc881255ca8ae26a1a7c232",
         "status" : "failed",
         "time" : {
-          "start" : 1778609067452,
-          "stop" : 1778609155633,
-          "duration" : 88181
+          "start" : 1778612621037,
+          "stop" : 1778612703926,
+          "duration" : 82889
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "b37a7d7d6d4733138d7e6e209cf2af75"
+      "uid" : "c40c1f142fc881255ca8ae26a1a7c232"
     }, {
-      "name" : "List size mismatch: expected: > 0, actual: 0, collection: td a.filter(visible)\nScreenshot: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1778609181018.17.png\nPage source: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1778609181018.17.html\nTimeout: 15 s.",
+      "name" : "List size mismatch: expected: > 0, actual: 0, collection: td a.filter(visible)\nScreenshot: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1778612787403.14.png\nPage source: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1778612787403.14.html\nTimeout: 15 s.",
       "children" : [ {
         "name" : "DemoOrderTest",
-        "uid" : "b30ca4c71d802757",
-        "parentUid" : "45b8377261060f78698aed354c454e6d",
+        "uid" : "ca1e5468c1705727",
+        "parentUid" : "5d696a9e16849d2c0ae9be87a85c5779",
         "status" : "failed",
         "time" : {
-          "start" : 1778609181815,
-          "stop" : 1778609181815,
+          "start" : 1778612788565,
+          "stop" : 1778612788565,
           "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "45b8377261060f78698aed354c454e6d"
+      "uid" : "5d696a9e16849d2c0ae9be87a85c5779"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
