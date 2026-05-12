@@ -4,22 +4,124 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Invalid element state [with text: тему оформления]: element click intercepted: Element <div class=\"btn btn-primary product-card-bottom-btn-order btn-order--js\" id=\"old-choose-theme-btn-standard\" style=\"\" ga-action-click-type=\"click.ProductPage\" ga-action=\"click\" ga-action-click-omsid=\"PRODUCTION_POSTER\">...</div> is not clickable at point (1358, 23). Other element would receive the click: <div class=\"flocktory-widget-overlay\" style=\"display: flex; z-index: 2147483647; position: fixed; top: 0px; left: 0px; justify-content: center; align-items: center; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.8); transform: none;\" data-showed-up=\"true\">...</div>\nScreenshot: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1778599430027.3.png\nPage source: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1778599430027.3.html\nTimeout: 20 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <div class=\"btn btn-primary product-card-bottom-btn-order btn-order--js\" id=\"old-choose-theme-btn-standard\" style=\"\" ga-action-click-type=\"click.ProductPage\" ga-action=\"click\" ga-action-click-omsid=\"PRODUCTION_POSTER\">...</div> is not clickable at point (1358, 23). Other element would receive the click: <div class=\"flocktory-widget-overlay\" style=\"display: flex; z-index: 2147483647; position: fixed; top: 0px; left: 0px; justify-content: center; align-items: center; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.8); transform: none;\" data-showed-up=\"true\">...</div>",
+      "name" : "Element not found {span.select2-selection__rendered}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1778601356308.8.png\nPage source: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1778601356308.8.html\nTimeout: 20 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"span.select2-selection__rendered\"}",
       "children" : [ {
-        "name" : "Заказ постера: неавторизованный юзер-PosterOrderUnauthorized",
-        "uid" : "554b103173be7235",
-        "parentUid" : "4668bc82e2b997f63b006822054cdfe5",
+        "name" : "Проверка DaData",
+        "uid" : "5917c2cd1c0d22bf",
+        "parentUid" : "014d274b224af3c79b11a0fe41163167",
         "status" : "failed",
         "time" : {
-          "start" : 1778599408469,
-          "stop" : 1778599430904,
-          "duration" : 22435
+          "start" : 1778601288804,
+          "stop" : 1778601357087,
+          "duration" : 68283
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "4668bc82e2b997f63b006822054cdfe5"
+      "uid" : "014d274b224af3c79b11a0fe41163167"
+    }, {
+      "name" : "Element should be visible {div.user-layout-item}\nElement: '<div class=\"user-layout-item\" data-album_id=\"{%{user_layout_album_id}%}\" data-guid=\"{%{user_layout_guid}%}\" data-icon_url=\"{%{user_layout_icon}%}\" id=\"user_layout_{%{user_layout_guid}%}\" displayed:false></div>'\nActual value: hidden\nScreenshot: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1778601407515.9.png\nPage source: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1778601407515.9.html\nTimeout: 20 s.",
+      "children" : [ {
+        "name" : "Проверка Моих Макетов-MyMakets",
+        "uid" : "1950fd2e67a90595",
+        "parentUid" : "f0369ff8b3e62a63643348bd74520f81",
+        "status" : "failed",
+        "time" : {
+          "start" : 1778601357090,
+          "stop" : 1778601408185,
+          "duration" : 51095
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f0369ff8b3e62a63643348bd74520f81"
+    }, {
+      "name" : "Element should be clickable: interactable and enabled {by text: Постеры}\nElement: '<a data-sub-link=\"sub-link\" href=\"https://netprint.ru/moscow/interior/pechat-na-plakatah-i-posterah\" displayed:false></a>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1778601428408.10.png\nPage source: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1778601428408.10.html\nTimeout: 20 s.",
+      "children" : [ {
+        "name" : "Заказ постера: неавторизованный юзер-PosterOrderUnauthorized",
+        "uid" : "9bc5be92bd2ccafd",
+        "parentUid" : "c0adc62fd53be05842a8143689ed3f0c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1778601408188,
+          "stop" : 1778601429111,
+          "duration" : 20923
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c0adc62fd53be05842a8143689ed3f0c"
+    }, {
+      "name" : "List size mismatch: expected: > 0, actual: 0, collection: div.order-delivery-tile\nScreenshot: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1778601505972.11.png\nPage source: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1778601505972.11.html\nTimeout: 45 s.",
+      "children" : [ {
+        "name" : "Оплата Paykeeper QR",
+        "uid" : "498dd88740bb2aab",
+        "parentUid" : "1ed2822760f49522921cbece8a95665d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1778601429114,
+          "stop" : 1778601506739,
+          "duration" : 77625
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1ed2822760f49522921cbece8a95665d"
+    }, {
+      "name" : "Element not found {by text: Фотокниги}\nExpected: exist\nScreenshot: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1778601555027.12.png\nPage source: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1778601555027.12.html\nTimeout: 20 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
+      "children" : [ {
+        "name" : "Создание макета в SVG-редакторе",
+        "uid" : "1311ca7f29f1057f",
+        "parentUid" : "8a7e72e665c9d5b2d590ea3963eff870",
+        "status" : "failed",
+        "time" : {
+          "start" : 1778601506742,
+          "stop" : 1778601555813,
+          "duration" : 49071
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8a7e72e665c9d5b2d590ea3963eff870"
+    }, {
+      "name" : "Element not found {div.porch-album-tile-cover[1]}\nExpected: visible\nScreenshot: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1778601680409.13.png\nPage source: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1778601680409.13.html\nTimeout: 60 s.\nCaused by: java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 0",
+      "children" : [ {
+        "name" : "Добавление в корзину карманного календарика-AddPocketCalendar",
+        "uid" : "1d0e76b2d3405b49",
+        "parentUid" : "237977c01d38d8791d6a48d812cbcf73",
+        "status" : "failed",
+        "time" : {
+          "start" : 1778601590050,
+          "stop" : 1778601680971,
+          "duration" : 90921
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "237977c01d38d8791d6a48d812cbcf73"
+    }, {
+      "name" : "List size mismatch: expected: > 0, actual: 0, collection: td a.filter(visible)\nScreenshot: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1778601757485.14.png\nPage source: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1778601757485.14.html\nTimeout: 15 s.",
+      "children" : [ {
+        "name" : "DemoOrderTest",
+        "uid" : "c2f22d142d0b676",
+        "parentUid" : "4fe03f567161280cbba17beea24037ee",
+        "status" : "failed",
+        "time" : {
+          "start" : 1778601758581,
+          "stop" : 1778601758581,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4fe03f567161280cbba17beea24037ee"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
