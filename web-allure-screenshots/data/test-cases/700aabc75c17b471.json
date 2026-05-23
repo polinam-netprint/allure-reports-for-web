@@ -1,12 +1,12 @@
 {
-  "uid" : "b0ff4f8edc6e0a6e",
-  "name" : "Создание макета в SVG-редакторе",
-  "fullName" : "test.DemoOrderTest.SVGOrder",
-  "historyId" : "775a3d2a4e85ca9c8b290e2d0dfcf0c6",
+  "uid" : "700aabc75c17b471",
+  "name" : "Проверка DaData",
+  "fullName" : "test.DemoOrderTest.DadataTest",
+  "historyId" : "1571d5343153586fd1765d250748b7ed",
   "time" : {
-    "start" : 1779565753182,
-    "stop" : 1779565788731,
-    "duration" : 35549
+    "start" : 1779567606007,
+    "stop" : 1779567661048,
+    "duration" : 55041
   },
   "description" : "",
   "status" : "passed",
@@ -19,9 +19,9 @@
     "steps" : [ {
       "name" : "Проверка cookie и выведение на экран",
       "time" : {
-        "start" : 1779565753182,
-        "stop" : 1779565753186,
-        "duration" : 4
+        "start" : 1779567606008,
+        "stop" : 1779567606011,
+        "duration" : 3
       },
       "status" : "passed",
       "steps" : [ ],
@@ -37,9 +37,24 @@
     }, {
       "name" : "Очистка корзины API",
       "time" : {
-        "start" : 1779565753186,
-        "stop" : 1779565753678,
-        "duration" : 492
+        "start" : 1779567608162,
+        "stop" : 1779567608647,
+        "duration" : 485
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Повтор заказа с фото",
+      "time" : {
+        "start" : 1779567608647,
+        "stop" : 1779567608885,
+        "duration" : 238
       },
       "status" : "passed",
       "steps" : [ ],
@@ -52,9 +67,9 @@
     }, {
       "name" : "Авторизация по e-token",
       "time" : {
-        "start" : 1779565753686,
-        "stop" : 1779565755343,
-        "duration" : 1657
+        "start" : 1779567608885,
+        "stop" : 1779567610543,
+        "duration" : 1658
       },
       "status" : "passed",
       "steps" : [ ],
@@ -67,9 +82,9 @@
     }, {
       "name" : "Авторизация по имейлу",
       "time" : {
-        "start" : 1779565755343,
-        "stop" : 1779565767624,
-        "duration" : 12281
+        "start" : 1779567610543,
+        "stop" : 1779567625769,
+        "duration" : 15226
       },
       "status" : "passed",
       "steps" : [ ],
@@ -80,29 +95,74 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Выбор категории меню",
+      "name" : "Открыть личный кабинет",
       "time" : {
-        "start" : 1779565767625,
-        "stop" : 1779565770130,
-        "duration" : 2505
+        "start" : 1779567625769,
+        "stop" : 1779567627955,
+        "duration" : 2186
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Открыть личный кабинет после главной страницы",
+      "time" : {
+        "start" : 1779567627956,
+        "stop" : 1779567637303,
+        "duration" : 9347
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Выбрать МОЕГО ГОРОДА НЕТ В СПИСКЕ",
+      "time" : {
+        "start" : 1779567637304,
+        "stop" : 1779567648886,
+        "duration" : 11582
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Заполнить улицу, корпус и дом с помощью DaData",
+      "time" : {
+        "start" : 1779567648887,
+        "stop" : 1779567650850,
+        "duration" : 1963
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
-        "name" : "menuSec",
-        "value" : "Фотокниги"
+        "name" : "Street",
+        "value" : "Нефедова 17"
       } ],
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
       "stepsCount" : 0,
       "hasContent" : true
     }, {
-      "name" : "Выбрать моментбук",
+      "name" : "Заполнить номер квартиры в адресе",
       "time" : {
-        "start" : 1779565770133,
-        "stop" : 1779565770742,
-        "duration" : 609
+        "start" : 1779567650850,
+        "stop" : 1779567655988,
+        "duration" : 5138
       },
       "status" : "passed",
       "steps" : [ ],
@@ -113,116 +173,11 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Выбор фотокниги Премиум и переход к оформлению",
+      "name" : "Проверить адрес, заполненный с помощью DaData",
       "time" : {
-        "start" : 1779565770742,
-        "stop" : 1779565771471,
-        "duration" : 729
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : false
-    }, {
-      "name" : "Приветственная навигация",
-      "time" : {
-        "start" : 1779565771471,
-        "stop" : 1779565772379,
-        "duration" : 908
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : false
-    }, {
-      "name" : "Выбрать автосборку",
-      "time" : {
-        "start" : 1779565772379,
-        "stop" : 1779565772700,
-        "duration" : 321
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : false
-    }, {
-      "name" : "Выбрать раздел фото для наполнения книги",
-      "time" : {
-        "start" : 1779565772700,
-        "stop" : 1779565773081,
-        "duration" : 381
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : false
-    }, {
-      "name" : "Выбрать чекбокс с альбомом для наполнения книги",
-      "time" : {
-        "start" : 1779565773081,
-        "stop" : 1779565773427,
-        "duration" : 346
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : false
-    }, {
-      "name" : "Дать наименование экспресс-книги",
-      "time" : {
-        "start" : 1779565773427,
-        "stop" : 1779565773849,
-        "duration" : 422
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : false
-    }, {
-      "name" : "Выбрать разные компоновки",
-      "time" : {
-        "start" : 1779565773849,
-        "stop" : 1779565773933,
-        "duration" : 84
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : false
-    }, {
-      "name" : "Сохранить макет в Мои макеты",
-      "time" : {
-        "start" : 1779565773934,
-        "stop" : 1779565777477,
-        "duration" : 3543
+        "start" : 1779567661033,
+        "stop" : 1779567661048,
+        "duration" : 15
       },
       "status" : "passed",
       "steps" : [ ],
@@ -237,7 +192,7 @@
     "parameters" : [ ],
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "stepsCount" : 14,
+    "stepsCount" : 11,
     "hasContent" : true
   },
   "afterStages" : [ ],
@@ -246,7 +201,7 @@
     "value" : "MacMiniWebIos.local"
   }, {
     "name" : "thread",
-    "value" : "17911@MacMiniWebIos.local.main(3)"
+    "value" : "18951@MacMiniWebIos.local.main(3)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -261,7 +216,7 @@
     "value" : "test.DemoOrderTest"
   }, {
     "name" : "testMethod",
-    "value" : "SVGOrder"
+    "value" : "DadataTest"
   }, {
     "name" : "suite",
     "value" : "test.DemoOrderTest"
@@ -279,6 +234,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "b0ff4f8edc6e0a6e.json",
+  "source" : "700aabc75c17b471.json",
   "parameterValues" : [ ]
 }
