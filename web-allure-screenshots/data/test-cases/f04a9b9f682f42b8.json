@@ -1,12 +1,12 @@
 {
-  "uid" : "131702686e476f0b",
-  "name" : "Пополнение лицевого счёта в личном кабинете-TopUpAccount",
-  "fullName" : "test.DemoOrderTest.orderTopUpAccount",
-  "historyId" : "efa837afbc6d92b790a3a92ca90d555c",
+  "uid" : "f04a9b9f682f42b8",
+  "name" : "Проверка DaData",
+  "fullName" : "test.DemoOrderTest.DadataTest",
+  "historyId" : "1571d5343153586fd1765d250748b7ed",
   "time" : {
-    "start" : 1779826424326,
-    "stop" : 1779826454929,
-    "duration" : 30603
+    "start" : 1779828603986,
+    "stop" : 1779828676930,
+    "duration" : 72944
   },
   "description" : "",
   "status" : "passed",
@@ -19,9 +19,9 @@
     "steps" : [ {
       "name" : "Проверка cookie и выведение на экран",
       "time" : {
-        "start" : 1779826424341,
-        "stop" : 1779826424347,
-        "duration" : 6
+        "start" : 1779828603987,
+        "stop" : 1779828603989,
+        "duration" : 2
       },
       "status" : "passed",
       "steps" : [ ],
@@ -35,11 +35,41 @@
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
+      "name" : "Очистка корзины API",
+      "time" : {
+        "start" : 1779828606000,
+        "stop" : 1779828606548,
+        "duration" : 548
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Повтор заказа с фото",
+      "time" : {
+        "start" : 1779828606548,
+        "stop" : 1779828606798,
+        "duration" : 250
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
       "name" : "Авторизация по e-token",
       "time" : {
-        "start" : 1779826424351,
-        "stop" : 1779826426004,
-        "duration" : 1653
+        "start" : 1779828606799,
+        "stop" : 1779828608317,
+        "duration" : 1518
       },
       "status" : "passed",
       "steps" : [ ],
@@ -52,9 +82,9 @@
     }, {
       "name" : "Авторизация по имейлу",
       "time" : {
-        "start" : 1779826426004,
-        "stop" : 1779826441132,
-        "duration" : 15128
+        "start" : 1779828608317,
+        "stop" : 1779828623030,
+        "duration" : 14713
       },
       "status" : "passed",
       "steps" : [ ],
@@ -67,9 +97,9 @@
     }, {
       "name" : "Открыть личный кабинет",
       "time" : {
-        "start" : 1779826441145,
-        "stop" : 1779826443317,
-        "duration" : 2172
+        "start" : 1779828623030,
+        "stop" : 1779828625044,
+        "duration" : 2014
       },
       "status" : "passed",
       "steps" : [ ],
@@ -80,11 +110,11 @@
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
-      "name" : "Выбор раздела Мои финансы",
+      "name" : "Открыть личный кабинет после главной страницы",
       "time" : {
-        "start" : 1779826443318,
-        "stop" : 1779826444034,
-        "duration" : 716
+        "start" : 1779828625044,
+        "stop" : 1779828634141,
+        "duration" : 9097
       },
       "status" : "passed",
       "steps" : [ ],
@@ -95,29 +125,59 @@
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
-      "name" : "Заполнить данные для пополнения Лицевого счета",
+      "name" : "Выбрать МОЕГО ГОРОДА НЕТ В СПИСКЕ",
       "time" : {
-        "start" : 1779826444035,
-        "stop" : 1779826448506,
-        "duration" : 4471
+        "start" : 1779828634141,
+        "stop" : 1779828665155,
+        "duration" : 31014
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Заполнить улицу, корпус и дом с помощью DaData",
+      "time" : {
+        "start" : 1779828665155,
+        "stop" : 1779828666800,
+        "duration" : 1645
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
-        "name" : "sum",
-        "value" : "11"
+        "name" : "Street",
+        "value" : "Нефедова 17"
       } ],
       "stepsCount" : 0,
       "hasContent" : true,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
-      "name" : "Проверить открытие пейкипера",
+      "name" : "Заполнить номер квартиры в адресе",
       "time" : {
-        "start" : 1779826448513,
-        "stop" : 1779826454917,
-        "duration" : 6404
+        "start" : 1779828666800,
+        "stop" : 1779828671907,
+        "duration" : 5107
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверить адрес, заполненный с помощью DaData",
+      "time" : {
+        "start" : 1779828676913,
+        "stop" : 1779828676929,
+        "duration" : 16
       },
       "status" : "passed",
       "steps" : [ ],
@@ -130,7 +190,7 @@
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 7,
+    "stepsCount" : 11,
     "hasContent" : true,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false
@@ -141,7 +201,7 @@
     "value" : "MacMiniWebIos.local"
   }, {
     "name" : "thread",
-    "value" : "70235@MacMiniWebIos.local.main(3)"
+    "value" : "71275@MacMiniWebIos.local.main(3)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -156,7 +216,7 @@
     "value" : "test.DemoOrderTest"
   }, {
     "name" : "testMethod",
-    "value" : "orderTopUpAccount"
+    "value" : "DadataTest"
   }, {
     "name" : "suite",
     "value" : "test.DemoOrderTest"
@@ -174,6 +234,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "131702686e476f0b.json",
+  "source" : "f04a9b9f682f42b8.json",
   "parameterValues" : [ ]
 }
