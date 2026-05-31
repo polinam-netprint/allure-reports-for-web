@@ -1,12 +1,12 @@
 {
-  "uid" : "51dec7e6e75451b1",
-  "name" : "Проверка Моих Макетов-MyMakets",
-  "fullName" : "test.DemoOrderTest.myMaketsCheck",
-  "historyId" : "483298396508e44c15750cb26811de8d",
+  "uid" : "c33ae0e6f265c157",
+  "name" : "Загрузка фото в альбом-UploadPhotoToAlbum",
+  "fullName" : "test.DemoOrderTest.uploadPhotoInAlbum",
+  "historyId" : "a7519d805367d6283d9556065d9c18b2",
   "time" : {
-    "start" : 1780246181539,
-    "stop" : 1780246208414,
-    "duration" : 26875
+    "start" : 1780247914334,
+    "stop" : 1780247959620,
+    "duration" : 45286
   },
   "description" : "",
   "status" : "passed",
@@ -19,9 +19,9 @@
     "steps" : [ {
       "name" : "Проверка cookie и выведение на экран",
       "time" : {
-        "start" : 1780246181539,
-        "stop" : 1780246181606,
-        "duration" : 67
+        "start" : 1780247914334,
+        "stop" : 1780247914336,
+        "duration" : 2
       },
       "status" : "passed",
       "steps" : [ ],
@@ -35,11 +35,11 @@
       "stepsCount" : 0,
       "hasContent" : true
     }, {
-      "name" : "Авторизация по имейлу",
+      "name" : "Авторизация по e-token",
       "time" : {
-        "start" : 1780246181606,
-        "stop" : 1780246196197,
-        "duration" : 14591
+        "start" : 1780247914337,
+        "stop" : 1780247915852,
+        "duration" : 1515
       },
       "status" : "passed",
       "steps" : [ ],
@@ -50,11 +50,11 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Авторизация по e-token",
+      "name" : "Авторизация по имейлу",
       "time" : {
-        "start" : 1780246196197,
-        "stop" : 1780246198246,
-        "duration" : 2049
+        "start" : 1780247915852,
+        "stop" : 1780247930456,
+        "duration" : 14604
       },
       "status" : "passed",
       "steps" : [ ],
@@ -67,9 +67,9 @@
     }, {
       "name" : "Открыть личный кабинет",
       "time" : {
-        "start" : 1780246198246,
-        "stop" : 1780246199764,
-        "duration" : 1518
+        "start" : 1780247930456,
+        "stop" : 1780247934011,
+        "duration" : 3555
       },
       "status" : "passed",
       "steps" : [ ],
@@ -80,10 +80,28 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
+      "name" : "Проверка cookie и выведение на экран",
+      "time" : {
+        "start" : 1780247934011,
+        "stop" : 1780247934024,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "cookieName",
+        "value" : "ph_ab_test_newdesign_new_design"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
       "name" : "Проверка, что личный кабинет подгружен",
       "time" : {
-        "start" : 1780246199764,
-        "stop" : 1780246199789,
+        "start" : 1780247934024,
+        "stop" : 1780247934049,
         "duration" : 25
       },
       "status" : "passed",
@@ -95,11 +113,11 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Открыть раздел Мои макеты",
+      "name" : "Выбор раздела Мои альбомы",
       "time" : {
-        "start" : 1780246199789,
-        "stop" : 1780246200927,
-        "duration" : 1138
+        "start" : 1780247934050,
+        "stop" : 1780247935274,
+        "duration" : 1224
       },
       "status" : "passed",
       "steps" : [ ],
@@ -110,11 +128,41 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Проверить, что раздел Мои макеты подгружены",
+      "name" : "Создание альбома",
       "time" : {
-        "start" : 1780246200927,
-        "stop" : 1780246208413,
-        "duration" : 7486
+        "start" : 1780247935275,
+        "stop" : 1780247953177,
+        "duration" : 17902
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Загрузка фото в альбом",
+      "time" : {
+        "start" : 1780247953177,
+        "stop" : 1780247958351,
+        "duration" : 5174
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Проверить загруженные фото, клик на чек-бокс",
+      "time" : {
+        "start" : 1780247958352,
+        "stop" : 1780247959620,
+        "duration" : 1268
       },
       "status" : "passed",
       "steps" : [ ],
@@ -129,7 +177,7 @@
     "parameters" : [ ],
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "stepsCount" : 7,
+    "stepsCount" : 10,
     "hasContent" : true
   },
   "afterStages" : [ ],
@@ -138,7 +186,7 @@
     "value" : "MacMiniWebIos.local"
   }, {
     "name" : "thread",
-    "value" : "55201@MacMiniWebIos.local.main(3)"
+    "value" : "56093@MacMiniWebIos.local.main(3)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -153,7 +201,7 @@
     "value" : "test.DemoOrderTest"
   }, {
     "name" : "testMethod",
-    "value" : "myMaketsCheck"
+    "value" : "uploadPhotoInAlbum"
   }, {
     "name" : "suite",
     "value" : "test.DemoOrderTest"
@@ -171,6 +219,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "51dec7e6e75451b1.json",
+  "source" : "c33ae0e6f265c157.json",
   "parameterValues" : [ ]
 }
