@@ -1,12 +1,12 @@
 {
-  "uid" : "74cb15760a73e7c5",
-  "name" : "Проверка Моих Макетов-MyMakets",
-  "fullName" : "test.DemoOrderTest.myMaketsCheck",
-  "historyId" : "483298396508e44c15750cb26811de8d",
+  "uid" : "8377fb500ee73e59",
+  "name" : "Оплата Paykeeper QR",
+  "fullName" : "test.DemoOrderTest.orderByPaykeeper",
+  "historyId" : "a2095be1cb5e5e926e300a4c4a14274b",
   "time" : {
-    "start" : 1780330779405,
-    "stop" : 1780330806281,
-    "duration" : 26876
+    "start" : 1780332449485,
+    "stop" : 1780332498620,
+    "duration" : 49135
   },
   "description" : "",
   "status" : "passed",
@@ -19,9 +19,9 @@
     "steps" : [ {
       "name" : "Проверка cookie и выведение на экран",
       "time" : {
-        "start" : 1780330779406,
-        "stop" : 1780330779475,
-        "duration" : 69
+        "start" : 1780332449486,
+        "stop" : 1780332449489,
+        "duration" : 3
       },
       "status" : "passed",
       "steps" : [ ],
@@ -35,11 +35,26 @@
       "stepsCount" : 0,
       "hasContent" : true
     }, {
-      "name" : "Авторизация по имейлу",
+      "name" : "Очистка корзины API",
       "time" : {
-        "start" : 1780330779476,
-        "stop" : 1780330794214,
-        "duration" : 14738
+        "start" : 1780332451520,
+        "stop" : 1780332452102,
+        "duration" : 582
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Повтор заказа с фото",
+      "time" : {
+        "start" : 1780332452103,
+        "stop" : 1780332452408,
+        "duration" : 305
       },
       "status" : "passed",
       "steps" : [ ],
@@ -52,9 +67,24 @@
     }, {
       "name" : "Авторизация по e-token",
       "time" : {
-        "start" : 1780330794214,
-        "stop" : 1780330796121,
-        "duration" : 1907
+        "start" : 1780332452408,
+        "stop" : 1780332453960,
+        "duration" : 1552
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Авторизация по имейлу",
+      "time" : {
+        "start" : 1780332453960,
+        "stop" : 1780332469236,
+        "duration" : 15276
       },
       "status" : "passed",
       "steps" : [ ],
@@ -67,9 +97,9 @@
     }, {
       "name" : "Открыть личный кабинет",
       "time" : {
-        "start" : 1780330796121,
-        "stop" : 1780330797638,
-        "duration" : 1517
+        "start" : 1780332469236,
+        "stop" : 1780332471315,
+        "duration" : 2079
       },
       "status" : "passed",
       "steps" : [ ],
@@ -80,11 +110,11 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Проверка, что личный кабинет подгружен",
+      "name" : "Выбрать ПВЗ",
       "time" : {
-        "start" : 1780330797638,
-        "stop" : 1780330797667,
-        "duration" : 29
+        "start" : 1780332481057,
+        "stop" : 1780332491381,
+        "duration" : 10324
       },
       "status" : "passed",
       "steps" : [ ],
@@ -95,11 +125,11 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Открыть раздел Мои макеты",
+      "name" : "Создать заказ",
       "time" : {
-        "start" : 1780330797667,
-        "stop" : 1780330798859,
-        "duration" : 1192
+        "start" : 1780332491381,
+        "stop" : 1780332492976,
+        "duration" : 1595
       },
       "status" : "passed",
       "steps" : [ ],
@@ -110,11 +140,11 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Проверить, что раздел Мои макеты подгружены",
+      "name" : "Проверить открытие пейкипера QR",
       "time" : {
-        "start" : 1780330798859,
-        "stop" : 1780330806281,
-        "duration" : 7422
+        "start" : 1780332492977,
+        "stop" : 1780332498619,
+        "duration" : 5642
       },
       "status" : "passed",
       "steps" : [ ],
@@ -129,7 +159,7 @@
     "parameters" : [ ],
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "stepsCount" : 7,
+    "stepsCount" : 9,
     "hasContent" : true
   },
   "afterStages" : [ ],
@@ -138,7 +168,7 @@
     "value" : "MacMiniWebIos.local"
   }, {
     "name" : "thread",
-    "value" : "97689@MacMiniWebIos.local.main(3)"
+    "value" : "98572@MacMiniWebIos.local.main(3)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -153,7 +183,7 @@
     "value" : "test.DemoOrderTest"
   }, {
     "name" : "testMethod",
-    "value" : "myMaketsCheck"
+    "value" : "orderByPaykeeper"
   }, {
     "name" : "suite",
     "value" : "test.DemoOrderTest"
@@ -171,6 +201,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "74cb15760a73e7c5.json",
+  "source" : "8377fb500ee73e59.json",
   "parameterValues" : [ ]
 }
