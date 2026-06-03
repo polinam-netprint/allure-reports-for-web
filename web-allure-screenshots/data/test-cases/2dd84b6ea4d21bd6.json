@@ -1,12 +1,12 @@
 {
-  "uid" : "cf6c27437b6e323c",
-  "name" : "Загрузка фото в альбом-UploadPhotoToAlbum",
-  "fullName" : "test.DemoOrderTest.uploadPhotoInAlbum",
-  "historyId" : "a7519d805367d6283d9556065d9c18b2",
+  "uid" : "2dd84b6ea4d21bd6",
+  "name" : "Пополнение лицевого счёта в личном кабинете-TopUpAccount",
+  "fullName" : "test.DemoOrderTest.orderTopUpAccount",
+  "historyId" : "efa837afbc6d92b790a3a92ca90d555c",
   "time" : {
-    "start" : 1780512501448,
-    "stop" : 1780512549027,
-    "duration" : 47579
+    "start" : 1780513961103,
+    "stop" : 1780513992168,
+    "duration" : 31065
   },
   "description" : "",
   "status" : "passed",
@@ -19,9 +19,9 @@
     "steps" : [ {
       "name" : "Проверка cookie и выведение на экран",
       "time" : {
-        "start" : 1780512501449,
-        "stop" : 1780512501451,
-        "duration" : 2
+        "start" : 1780513961118,
+        "stop" : 1780513961125,
+        "duration" : 7
       },
       "status" : "passed",
       "steps" : [ ],
@@ -37,9 +37,9 @@
     }, {
       "name" : "Авторизация по e-token",
       "time" : {
-        "start" : 1780512501451,
-        "stop" : 1780512503032,
-        "duration" : 1581
+        "start" : 1780513961128,
+        "stop" : 1780513962782,
+        "duration" : 1654
       },
       "status" : "passed",
       "steps" : [ ],
@@ -52,9 +52,9 @@
     }, {
       "name" : "Авторизация по имейлу",
       "time" : {
-        "start" : 1780512503032,
-        "stop" : 1780512518268,
-        "duration" : 15236
+        "start" : 1780513962784,
+        "stop" : 1780513977938,
+        "duration" : 15154
       },
       "status" : "passed",
       "steps" : [ ],
@@ -67,9 +67,9 @@
     }, {
       "name" : "Открыть личный кабинет",
       "time" : {
-        "start" : 1780512518268,
-        "stop" : 1780512521514,
-        "duration" : 3246
+        "start" : 1780513977952,
+        "stop" : 1780513980282,
+        "duration" : 2330
       },
       "status" : "passed",
       "steps" : [ ],
@@ -80,89 +80,44 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Проверка cookie и выведение на экран",
+      "name" : "Выбор раздела Мои финансы",
       "time" : {
-        "start" : 1780512521514,
-        "stop" : 1780512521530,
-        "duration" : 16
+        "start" : 1780513980283,
+        "stop" : 1780513980907,
+        "duration" : 624
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Заполнить данные для пополнения Лицевого счета",
+      "time" : {
+        "start" : 1780513980907,
+        "stop" : 1780513985445,
+        "duration" : 4538
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
-        "name" : "cookieName",
-        "value" : "ph_ab_test_newdesign_new_design"
+        "name" : "sum",
+        "value" : "11"
       } ],
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
       "stepsCount" : 0,
       "hasContent" : true
     }, {
-      "name" : "Проверка, что личный кабинет подгружен",
+      "name" : "Проверить открытие пейкипера",
       "time" : {
-        "start" : 1780512521530,
-        "stop" : 1780512521557,
-        "duration" : 27
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : false
-    }, {
-      "name" : "Выбор раздела Мои альбомы",
-      "time" : {
-        "start" : 1780512521557,
-        "stop" : 1780512522273,
-        "duration" : 716
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : false
-    }, {
-      "name" : "Создание альбома",
-      "time" : {
-        "start" : 1780512522273,
-        "stop" : 1780512542530,
-        "duration" : 20257
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : false
-    }, {
-      "name" : "Загрузка фото в альбом",
-      "time" : {
-        "start" : 1780512542530,
-        "stop" : 1780512547944,
-        "duration" : 5414
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : false
-    }, {
-      "name" : "Проверить загруженные фото, клик на чек-бокс",
-      "time" : {
-        "start" : 1780512547945,
-        "stop" : 1780512549026,
-        "duration" : 1081
+        "start" : 1780513985451,
+        "stop" : 1780513992152,
+        "duration" : 6701
       },
       "status" : "passed",
       "steps" : [ ],
@@ -177,7 +132,7 @@
     "parameters" : [ ],
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "stepsCount" : 10,
+    "stepsCount" : 7,
     "hasContent" : true
   },
   "afterStages" : [ ],
@@ -186,7 +141,7 @@
     "value" : "MacMiniWebIos.local"
   }, {
     "name" : "thread",
-    "value" : "7493@MacMiniWebIos.local.main(3)"
+    "value" : "8313@MacMiniWebIos.local.main(3)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -201,7 +156,7 @@
     "value" : "test.DemoOrderTest"
   }, {
     "name" : "testMethod",
-    "value" : "uploadPhotoInAlbum"
+    "value" : "orderTopUpAccount"
   }, {
     "name" : "suite",
     "value" : "test.DemoOrderTest"
@@ -219,6 +174,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "cf6c27437b6e323c.json",
+  "source" : "2dd84b6ea4d21bd6.json",
   "parameterValues" : [ ]
 }
