@@ -1,12 +1,12 @@
 {
-  "uid" : "8f727de9ea608b5e",
-  "name" : "Заказ постера: неавторизованный юзер-PosterOrderUnauthorized",
-  "fullName" : "test.DemoOrderTest.posterOrderNotAuthorized",
-  "historyId" : "964a1e0b8f4c9287ac4a2678d7bd6dce",
+  "uid" : "6b5b7c5d95f43acf",
+  "name" : "Загрузка фото в альбом-UploadPhotoToAlbum",
+  "fullName" : "test.DemoOrderTest.uploadPhotoInAlbum",
+  "historyId" : "a7519d805367d6283d9556065d9c18b2",
   "time" : {
-    "start" : 1780595640783,
-    "stop" : 1780595654780,
-    "duration" : 13997
+    "start" : 1780597081016,
+    "stop" : 1780597125595,
+    "duration" : 44579
   },
   "description" : "",
   "status" : "passed",
@@ -19,9 +19,9 @@
     "steps" : [ {
       "name" : "Проверка cookie и выведение на экран",
       "time" : {
-        "start" : 1780595640784,
-        "stop" : 1780595640789,
-        "duration" : 5
+        "start" : 1780597081017,
+        "stop" : 1780597081020,
+        "duration" : 3
       },
       "status" : "passed",
       "steps" : [ ],
@@ -35,47 +35,74 @@
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
-      "name" : "Выбор категории меню",
+      "name" : "Авторизация по e-token",
       "time" : {
-        "start" : 1780595640789,
-        "stop" : 1780595640954,
-        "duration" : 165
+        "start" : 1780597081020,
+        "stop" : 1780597082526,
+        "duration" : 1506
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Авторизация по имейлу",
+      "time" : {
+        "start" : 1780597082526,
+        "stop" : 1780597098167,
+        "duration" : 15641
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Открыть личный кабинет",
+      "time" : {
+        "start" : 1780597098167,
+        "stop" : 1780597100063,
+        "duration" : 1896
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверка cookie и выведение на экран",
+      "time" : {
+        "start" : 1780597100063,
+        "stop" : 1780597100077,
+        "duration" : 14
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
-        "name" : "menuSec",
-        "value" : "Фотографии"
+        "name" : "cookieName",
+        "value" : "ph_ab_test_newdesign_new_design"
       } ],
       "stepsCount" : 0,
       "hasContent" : true,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
-      "name" : "Выбор типа продукта",
+      "name" : "Проверка, что личный кабинет подгружен",
       "time" : {
-        "start" : 1780595640954,
-        "stop" : 1780595641489,
-        "duration" : 535
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ {
-        "name" : "productType",
-        "value" : "Постеры"
-      } ],
-      "stepsCount" : 0,
-      "hasContent" : true,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "Переход к оформлению макета из карточки товара",
-      "time" : {
-        "start" : 1780595641489,
-        "stop" : 1780595648695,
-        "duration" : 7206
+        "start" : 1780597100078,
+        "stop" : 1780597100102,
+        "duration" : 24
       },
       "status" : "passed",
       "steps" : [ ],
@@ -86,11 +113,11 @@
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
-      "name" : "Выбор темы макета",
+      "name" : "Выбор раздела Мои альбомы",
       "time" : {
-        "start" : 1780595648695,
-        "stop" : 1780595650118,
-        "duration" : 1423
+        "start" : 1780597100103,
+        "stop" : 1780597101027,
+        "duration" : 924
       },
       "status" : "passed",
       "steps" : [ ],
@@ -101,11 +128,11 @@
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
-      "name" : "Выбор стиля макета",
+      "name" : "Создание альбома",
       "time" : {
-        "start" : 1780595650118,
-        "stop" : 1780595650179,
-        "duration" : 61
+        "start" : 1780597101027,
+        "stop" : 1780597119129,
+        "duration" : 18102
       },
       "status" : "passed",
       "steps" : [ ],
@@ -116,11 +143,11 @@
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
-      "name" : "Переход в экспресс-редактор",
+      "name" : "Загрузка фото в альбом",
       "time" : {
-        "start" : 1780595650179,
-        "stop" : 1780595650216,
-        "duration" : 37
+        "start" : 1780597119130,
+        "stop" : 1780597124361,
+        "duration" : 5231
       },
       "status" : "passed",
       "steps" : [ ],
@@ -131,11 +158,11 @@
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
-      "name" : "Переход в корзину из экспресс-редактора",
+      "name" : "Проверить загруженные фото, клик на чек-бокс",
       "time" : {
-        "start" : 1780595650219,
-        "stop" : 1780595652484,
-        "duration" : 2265
+        "start" : 1780597124361,
+        "stop" : 1780597125594,
+        "duration" : 1233
       },
       "status" : "passed",
       "steps" : [ ],
@@ -148,21 +175,18 @@
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 8,
+    "stepsCount" : 10,
     "hasContent" : true,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false
   },
   "afterStages" : [ ],
   "labels" : [ {
-    "name" : "tag",
-    "value" : "smoke"
-  }, {
     "name" : "host",
     "value" : "MacMiniWebIos.local"
   }, {
     "name" : "thread",
-    "value" : "49790@MacMiniWebIos.local.main(3)"
+    "value" : "50794@MacMiniWebIos.local.main(3)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -177,7 +201,7 @@
     "value" : "test.DemoOrderTest"
   }, {
     "name" : "testMethod",
-    "value" : "posterOrderNotAuthorized"
+    "value" : "uploadPhotoInAlbum"
   }, {
     "name" : "suite",
     "value" : "test.DemoOrderTest"
@@ -191,19 +215,10 @@
   "retry" : false,
   "extra" : {
     "severity" : "normal",
-    "retries" : [ {
-      "uid" : "86478d7a3373c1e4",
-      "status" : "failed",
-      "statusDetails" : "Element should be visible {with text: тему оформления}\nElement: '<div class=\"btn btn-primary product-card-bottom-btn-order btn-order--js\" ga-action=\"click\" ga-action-click-omsid=\"PRODUCTION_POSTER\" ga-action-click-type=\"click.ProductPage\" id=\"old-choose-theme-btn-standard\" displayed:false></div>'\nActual value: hidden\nScreenshot: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1780595354801.2.png\nPage source: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1780595354801.2.html\nTimeout: 90 s.",
-      "time" : {
-        "start" : 1780595260922,
-        "stop" : 1780595355674,
-        "duration" : 94752
-      }
-    } ],
+    "retries" : [ ],
     "categories" : [ ],
-    "tags" : [ "smoke" ]
+    "tags" : [ ]
   },
-  "source" : "8f727de9ea608b5e.json",
+  "source" : "6b5b7c5d95f43acf.json",
   "parameterValues" : [ ]
 }
