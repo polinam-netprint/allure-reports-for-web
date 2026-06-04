@@ -1,12 +1,12 @@
 {
-  "uid" : "4715a1fe1254078b",
-  "name" : "Заказ постера: неавторизованный юзер-PosterOrderUnauthorized",
-  "fullName" : "test.DemoOrderTest.posterOrderNotAuthorized",
-  "historyId" : "964a1e0b8f4c9287ac4a2678d7bd6dce",
+  "uid" : "c682c686f257d1a8",
+  "name" : "Оплата Paykeeper QR",
+  "fullName" : "test.DemoOrderTest.orderByPaykeeper",
+  "historyId" : "a2095be1cb5e5e926e300a4c4a14274b",
   "time" : {
-    "start" : 1780604238238,
-    "stop" : 1780604249014,
-    "duration" : 10776
+    "start" : 1780606043861,
+    "stop" : 1780606091077,
+    "duration" : 47216
   },
   "description" : "",
   "status" : "passed",
@@ -19,8 +19,8 @@
     "steps" : [ {
       "name" : "Проверка cookie и выведение на экран",
       "time" : {
-        "start" : 1780604238238,
-        "stop" : 1780604238241,
+        "start" : 1780606043861,
+        "stop" : 1780606043864,
         "duration" : 3
       },
       "status" : "passed",
@@ -35,47 +35,11 @@
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
-      "name" : "Выбор категории меню",
+      "name" : "Очистка корзины API",
       "time" : {
-        "start" : 1780604238241,
-        "stop" : 1780604238372,
-        "duration" : 131
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ {
-        "name" : "menuSec",
-        "value" : "Фотографии"
-      } ],
-      "stepsCount" : 0,
-      "hasContent" : true,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "Выбор типа продукта",
-      "time" : {
-        "start" : 1780604238372,
-        "stop" : 1780604238417,
-        "duration" : 45
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ {
-        "name" : "productType",
-        "value" : "Постеры"
-      } ],
-      "stepsCount" : 0,
-      "hasContent" : true,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "Переход к оформлению макета из карточки товара",
-      "time" : {
-        "start" : 1780604238417,
-        "stop" : 1780604244227,
-        "duration" : 5810
+        "start" : 1780606045871,
+        "stop" : 1780606046392,
+        "duration" : 521
       },
       "status" : "passed",
       "steps" : [ ],
@@ -86,11 +50,11 @@
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
-      "name" : "Выбор темы макета",
+      "name" : "Повтор заказа с фото",
       "time" : {
-        "start" : 1780604244227,
-        "stop" : 1780604244992,
-        "duration" : 765
+        "start" : 1780606046392,
+        "stop" : 1780606046673,
+        "duration" : 281
       },
       "status" : "passed",
       "steps" : [ ],
@@ -101,11 +65,11 @@
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
-      "name" : "Выбор стиля макета",
+      "name" : "Авторизация по e-token",
       "time" : {
-        "start" : 1780604244992,
-        "stop" : 1780604245058,
-        "duration" : 66
+        "start" : 1780606046673,
+        "stop" : 1780606048188,
+        "duration" : 1515
       },
       "status" : "passed",
       "steps" : [ ],
@@ -116,11 +80,11 @@
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
-      "name" : "Переход в экспресс-редактор",
+      "name" : "Авторизация по имейлу",
       "time" : {
-        "start" : 1780604245058,
-        "stop" : 1780604245110,
-        "duration" : 52
+        "start" : 1780606048188,
+        "stop" : 1780606062782,
+        "duration" : 14594
       },
       "status" : "passed",
       "steps" : [ ],
@@ -131,11 +95,56 @@
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
-      "name" : "Переход в корзину из экспресс-редактора",
+      "name" : "Открыть личный кабинет",
       "time" : {
-        "start" : 1780604245110,
-        "stop" : 1780604246652,
-        "duration" : 1542
+        "start" : 1780606062783,
+        "stop" : 1780606064728,
+        "duration" : 1945
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Выбрать ПВЗ",
+      "time" : {
+        "start" : 1780606073949,
+        "stop" : 1780606083901,
+        "duration" : 9952
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Создать заказ",
+      "time" : {
+        "start" : 1780606083901,
+        "stop" : 1780606085619,
+        "duration" : 1718
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверить открытие пейкипера QR",
+      "time" : {
+        "start" : 1780606085619,
+        "stop" : 1780606091076,
+        "duration" : 5457
       },
       "status" : "passed",
       "steps" : [ ],
@@ -148,21 +157,18 @@
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 8,
+    "stepsCount" : 9,
     "hasContent" : true,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false
   },
   "afterStages" : [ ],
   "labels" : [ {
-    "name" : "tag",
-    "value" : "smoke"
-  }, {
     "name" : "host",
     "value" : "MacMiniWebIos.local"
   }, {
     "name" : "thread",
-    "value" : "54543@MacMiniWebIos.local.main(3)"
+    "value" : "55471@MacMiniWebIos.local.main(3)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -177,7 +183,7 @@
     "value" : "test.DemoOrderTest"
   }, {
     "name" : "testMethod",
-    "value" : "posterOrderNotAuthorized"
+    "value" : "orderByPaykeeper"
   }, {
     "name" : "suite",
     "value" : "test.DemoOrderTest"
@@ -193,8 +199,8 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "tags" : [ "smoke" ]
+    "tags" : [ ]
   },
-  "source" : "4715a1fe1254078b.json",
+  "source" : "c682c686f257d1a8.json",
   "parameterValues" : [ ]
 }
