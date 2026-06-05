@@ -1,12 +1,12 @@
 {
-  "uid" : "4e086b599af62c19",
-  "name" : "Оплата Paykeeper QR",
-  "fullName" : "test.DemoOrderTest.orderByPaykeeper",
-  "historyId" : "a2095be1cb5e5e926e300a4c4a14274b",
+  "uid" : "317d1b28045b3b93",
+  "name" : "Добавление в корзину карманного календарика-AddPocketCalendar",
+  "fullName" : "test.DemoOrderTest.calendOrderAuthorised",
+  "historyId" : "514ff39a5161779d81b58d4093ad1e81",
   "time" : {
-    "start" : 1780674482317,
-    "stop" : 1780674532574,
-    "duration" : 50257
+    "start" : 1780676044122,
+    "stop" : 1780676137933,
+    "duration" : 93811
   },
   "description" : "",
   "status" : "passed",
@@ -19,9 +19,9 @@
     "steps" : [ {
       "name" : "Проверка cookie и выведение на экран",
       "time" : {
-        "start" : 1780674482318,
-        "stop" : 1780674482322,
-        "duration" : 4
+        "start" : 1780676044122,
+        "stop" : 1780676044125,
+        "duration" : 3
       },
       "status" : "passed",
       "steps" : [ ],
@@ -35,41 +35,11 @@
       "stepsCount" : 0,
       "hasContent" : true
     }, {
-      "name" : "Очистка корзины API",
-      "time" : {
-        "start" : 1780674484473,
-        "stop" : 1780674485006,
-        "duration" : 533
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : false
-    }, {
-      "name" : "Повтор заказа с фото",
-      "time" : {
-        "start" : 1780674485007,
-        "stop" : 1780674485284,
-        "duration" : 277
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : false
-    }, {
       "name" : "Авторизация по e-token",
       "time" : {
-        "start" : 1780674485284,
-        "stop" : 1780674486939,
-        "duration" : 1655
+        "start" : 1780676046145,
+        "stop" : 1780676047662,
+        "duration" : 1517
       },
       "status" : "passed",
       "steps" : [ ],
@@ -82,9 +52,9 @@
     }, {
       "name" : "Авторизация по имейлу",
       "time" : {
-        "start" : 1780674486940,
-        "stop" : 1780674502200,
-        "duration" : 15260
+        "start" : 1780676047662,
+        "stop" : 1780676062362,
+        "duration" : 14700
       },
       "status" : "passed",
       "steps" : [ ],
@@ -95,11 +65,29 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Открыть личный кабинет",
+      "name" : "Выбор категории меню",
       "time" : {
-        "start" : 1780674502200,
-        "stop" : 1780674504410,
-        "duration" : 2210
+        "start" : 1780676062369,
+        "stop" : 1780676063148,
+        "duration" : 779
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "menuSec",
+        "value" : "Календари"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Выбор типа продукта",
+      "time" : {
+        "start" : 1780676063148,
+        "stop" : 1780676063656,
+        "duration" : 508
       },
       "status" : "passed",
       "steps" : [ ],
@@ -110,11 +98,11 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Выбрать ПВЗ",
+      "name" : "Переход к оформлению макета из карточки товара",
       "time" : {
-        "start" : 1780674514675,
-        "stop" : 1780674524908,
-        "duration" : 10233
+        "start" : 1780676063660,
+        "stop" : 1780676069518,
+        "duration" : 5858
       },
       "status" : "passed",
       "steps" : [ ],
@@ -125,11 +113,11 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Создать заказ",
+      "name" : "Выбрать стиль макета",
       "time" : {
-        "start" : 1780674524908,
-        "stop" : 1780674526782,
-        "duration" : 1874
+        "start" : 1780676069518,
+        "stop" : 1780676070989,
+        "duration" : 1471
       },
       "status" : "passed",
       "steps" : [ ],
@@ -140,11 +128,56 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Проверить открытие пейкипера QR",
+      "name" : "Переход в экспресс-редактор",
       "time" : {
-        "start" : 1780674526782,
-        "stop" : 1780674532573,
-        "duration" : 5791
+        "start" : 1780676070989,
+        "stop" : 1780676071036,
+        "duration" : 47
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Выбрать загруженные фото в редакторе",
+      "time" : {
+        "start" : 1780676071042,
+        "stop" : 1780676074505,
+        "duration" : 3463
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Загрузка фото в экспресс-редакторе",
+      "time" : {
+        "start" : 1780676074511,
+        "stop" : 1780676135670,
+        "duration" : 61159
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Добавить в корзину из экспресс-редактора",
+      "time" : {
+        "start" : 1780676135671,
+        "stop" : 1780676135763,
+        "duration" : 92
       },
       "status" : "passed",
       "steps" : [ ],
@@ -159,7 +192,7 @@
     "parameters" : [ ],
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "stepsCount" : 9,
+    "stepsCount" : 11,
     "hasContent" : true
   },
   "afterStages" : [ ],
@@ -168,7 +201,7 @@
     "value" : "MacMiniWebIos.local"
   }, {
     "name" : "thread",
-    "value" : "90677@MacMiniWebIos.local.main(3)"
+    "value" : "91673@MacMiniWebIos.local.main(3)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -183,7 +216,7 @@
     "value" : "test.DemoOrderTest"
   }, {
     "name" : "testMethod",
-    "value" : "orderByPaykeeper"
+    "value" : "calendOrderAuthorised"
   }, {
     "name" : "suite",
     "value" : "test.DemoOrderTest"
@@ -201,6 +234,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "4e086b599af62c19.json",
+  "source" : "317d1b28045b3b93.json",
   "parameterValues" : [ ]
 }
