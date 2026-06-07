@@ -1,12 +1,12 @@
 {
-  "uid" : "3c6c46724dc3eb6b",
-  "name" : "Проверка Моих Макетов-MyMakets",
-  "fullName" : "test.DemoOrderTest.myMaketsCheck",
-  "historyId" : "483298396508e44c15750cb26811de8d",
+  "uid" : "d73db6bbb13dde49",
+  "name" : "Пополнение лицевого счёта в личном кабинете-TopUpAccount",
+  "fullName" : "test.DemoOrderTest.orderTopUpAccount",
+  "historyId" : "efa837afbc6d92b790a3a92ca90d555c",
   "time" : {
-    "start" : 1780836646124,
-    "stop" : 1780836679901,
-    "duration" : 33777
+    "start" : 1780838550317,
+    "stop" : 1780838579938,
+    "duration" : 29621
   },
   "description" : "",
   "status" : "passed",
@@ -19,9 +19,9 @@
     "steps" : [ {
       "name" : "Проверка cookie и выведение на экран",
       "time" : {
-        "start" : 1780836646125,
-        "stop" : 1780836646189,
-        "duration" : 64
+        "start" : 1780838550317,
+        "stop" : 1780838550375,
+        "duration" : 58
       },
       "status" : "passed",
       "steps" : [ ],
@@ -35,11 +35,11 @@
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
-      "name" : "Авторизация по имейлу",
+      "name" : "Авторизация по e-token",
       "time" : {
-        "start" : 1780836646189,
-        "stop" : 1780836661433,
-        "duration" : 15244
+        "start" : 1780838550375,
+        "stop" : 1780838552053,
+        "duration" : 1678
       },
       "status" : "passed",
       "steps" : [ ],
@@ -50,11 +50,11 @@
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
-      "name" : "Авторизация по e-token",
+      "name" : "Авторизация по имейлу",
       "time" : {
-        "start" : 1780836661434,
-        "stop" : 1780836663450,
-        "duration" : 2016
+        "start" : 1780838552054,
+        "stop" : 1780838567191,
+        "duration" : 15137
       },
       "status" : "passed",
       "steps" : [ ],
@@ -67,9 +67,9 @@
     }, {
       "name" : "Открыть личный кабинет",
       "time" : {
-        "start" : 1780836663450,
-        "stop" : 1780836665108,
-        "duration" : 1658
+        "start" : 1780838567191,
+        "stop" : 1780838569211,
+        "duration" : 2020
       },
       "status" : "passed",
       "steps" : [ ],
@@ -80,11 +80,11 @@
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
-      "name" : "Проверка, что личный кабинет подгружен",
+      "name" : "Выбор раздела Мои финансы",
       "time" : {
-        "start" : 1780836665108,
-        "stop" : 1780836665136,
-        "duration" : 28
+        "start" : 1780838569211,
+        "stop" : 1780838569266,
+        "duration" : 55
       },
       "status" : "passed",
       "steps" : [ ],
@@ -95,26 +95,29 @@
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
-      "name" : "Открыть раздел Мои макеты",
+      "name" : "Заполнить данные для пополнения Лицевого счета",
       "time" : {
-        "start" : 1780836665136,
-        "stop" : 1780836666522,
-        "duration" : 1386
+        "start" : 1780838569266,
+        "stop" : 1780838573751,
+        "duration" : 4485
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
-      "parameters" : [ ],
+      "parameters" : [ {
+        "name" : "sum",
+        "value" : "11"
+      } ],
       "stepsCount" : 0,
-      "hasContent" : false,
+      "hasContent" : true,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
-      "name" : "Проверить, что раздел Мои макеты подгружены",
+      "name" : "Проверить открытие пейкипера",
       "time" : {
-        "start" : 1780836666522,
-        "stop" : 1780836679901,
-        "duration" : 13379
+        "start" : 1780838573752,
+        "stop" : 1780838579937,
+        "duration" : 6185
       },
       "status" : "passed",
       "steps" : [ ],
@@ -138,7 +141,7 @@
     "value" : "MacMiniWebIos.local"
   }, {
     "name" : "thread",
-    "value" : "71514@MacMiniWebIos.local.main(3)"
+    "value" : "72357@MacMiniWebIos.local.main(3)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -153,7 +156,7 @@
     "value" : "test.DemoOrderTest"
   }, {
     "name" : "testMethod",
-    "value" : "myMaketsCheck"
+    "value" : "orderTopUpAccount"
   }, {
     "name" : "suite",
     "value" : "test.DemoOrderTest"
@@ -167,10 +170,18 @@
   "retry" : false,
   "extra" : {
     "severity" : "normal",
-    "retries" : [ ],
+    "retries" : [ {
+      "uid" : "b842b9f7f2524615",
+      "status" : "passed",
+      "time" : {
+        "start" : 1780838018207,
+        "stop" : 1780838048058,
+        "duration" : 29851
+      }
+    } ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "3c6c46724dc3eb6b.json",
+  "source" : "d73db6bbb13dde49.json",
   "parameterValues" : [ ]
 }
