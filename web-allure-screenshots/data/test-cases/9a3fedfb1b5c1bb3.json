@@ -1,12 +1,12 @@
 {
-  "uid" : "6ff65ec89c17b9c1",
-  "name" : "Оплата Paykeeper QR",
-  "fullName" : "test.DemoOrderTest.orderByPaykeeper",
-  "historyId" : "a2095be1cb5e5e926e300a4c4a14274b",
+  "uid" : "9a3fedfb1b5c1bb3",
+  "name" : "Проверка DaData",
+  "fullName" : "test.DemoOrderTest.DadataTest",
+  "historyId" : "1571d5343153586fd1765d250748b7ed",
   "time" : {
-    "start" : 1780840106954,
-    "stop" : 1780840158379,
-    "duration" : 51425
+    "start" : 1780842040232,
+    "stop" : 1780842093750,
+    "duration" : 53518
   },
   "description" : "",
   "status" : "passed",
@@ -19,9 +19,9 @@
     "steps" : [ {
       "name" : "Проверка cookie и выведение на экран",
       "time" : {
-        "start" : 1780840106955,
-        "stop" : 1780840106959,
-        "duration" : 4
+        "start" : 1780842040233,
+        "stop" : 1780842040240,
+        "duration" : 7
       },
       "status" : "passed",
       "steps" : [ ],
@@ -37,9 +37,9 @@
     }, {
       "name" : "Очистка корзины API",
       "time" : {
-        "start" : 1780840109111,
-        "stop" : 1780840109674,
-        "duration" : 563
+        "start" : 1780842042251,
+        "stop" : 1780842043065,
+        "duration" : 814
       },
       "status" : "passed",
       "steps" : [ ],
@@ -52,9 +52,9 @@
     }, {
       "name" : "Повтор заказа с фото",
       "time" : {
-        "start" : 1780840109674,
-        "stop" : 1780840109935,
-        "duration" : 261
+        "start" : 1780842043065,
+        "stop" : 1780842043313,
+        "duration" : 248
       },
       "status" : "passed",
       "steps" : [ ],
@@ -67,9 +67,9 @@
     }, {
       "name" : "Авторизация по e-token",
       "time" : {
-        "start" : 1780840109935,
-        "stop" : 1780840111590,
-        "duration" : 1655
+        "start" : 1780842043313,
+        "stop" : 1780842044828,
+        "duration" : 1515
       },
       "status" : "passed",
       "steps" : [ ],
@@ -82,9 +82,9 @@
     }, {
       "name" : "Авторизация по имейлу",
       "time" : {
-        "start" : 1780840111590,
-        "stop" : 1780840126670,
-        "duration" : 15080
+        "start" : 1780842044828,
+        "stop" : 1780842059354,
+        "duration" : 14526
       },
       "status" : "passed",
       "steps" : [ ],
@@ -97,9 +97,9 @@
     }, {
       "name" : "Открыть личный кабинет",
       "time" : {
-        "start" : 1780840126670,
-        "stop" : 1780840130331,
-        "duration" : 3661
+        "start" : 1780842059355,
+        "stop" : 1780842061666,
+        "duration" : 2311
       },
       "status" : "passed",
       "steps" : [ ],
@@ -110,11 +110,11 @@
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
-      "name" : "Выбрать ПВЗ",
+      "name" : "Открыть личный кабинет после главной страницы",
       "time" : {
-        "start" : 1780840140532,
-        "stop" : 1780840150907,
-        "duration" : 10375
+        "start" : 1780842061666,
+        "stop" : 1780842070712,
+        "duration" : 9046
       },
       "status" : "passed",
       "steps" : [ ],
@@ -125,11 +125,11 @@
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
-      "name" : "Создать заказ",
+      "name" : "Выбрать МОЕГО ГОРОДА НЕТ В СПИСКЕ",
       "time" : {
-        "start" : 1780840150908,
-        "stop" : 1780840152609,
-        "duration" : 1701
+        "start" : 1780842070713,
+        "stop" : 1780842082175,
+        "duration" : 11462
       },
       "status" : "passed",
       "steps" : [ ],
@@ -140,11 +140,44 @@
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
-      "name" : "Проверить открытие пейкипера QR",
+      "name" : "Заполнить улицу, корпус и дом с помощью DaData",
       "time" : {
-        "start" : 1780840152609,
-        "stop" : 1780840158379,
-        "duration" : 5770
+        "start" : 1780842082175,
+        "stop" : 1780842083611,
+        "duration" : 1436
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Street",
+        "value" : "Нефедова 17"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Заполнить номер квартиры в адресе",
+      "time" : {
+        "start" : 1780842083611,
+        "stop" : 1780842088720,
+        "duration" : 5109
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверить адрес, заполненный с помощью DaData",
+      "time" : {
+        "start" : 1780842093731,
+        "stop" : 1780842093749,
+        "duration" : 18
       },
       "status" : "passed",
       "steps" : [ ],
@@ -157,7 +190,7 @@
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 9,
+    "stepsCount" : 11,
     "hasContent" : true,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false
@@ -168,7 +201,7 @@
     "value" : "MacMiniWebIos.local"
   }, {
     "name" : "thread",
-    "value" : "73375@MacMiniWebIos.local.main(3)"
+    "value" : "74281@MacMiniWebIos.local.main(3)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -183,7 +216,7 @@
     "value" : "test.DemoOrderTest"
   }, {
     "name" : "testMethod",
-    "value" : "orderByPaykeeper"
+    "value" : "DadataTest"
   }, {
     "name" : "suite",
     "value" : "test.DemoOrderTest"
@@ -201,6 +234,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "6ff65ec89c17b9c1.json",
+  "source" : "9a3fedfb1b5c1bb3.json",
   "parameterValues" : [ ]
 }
