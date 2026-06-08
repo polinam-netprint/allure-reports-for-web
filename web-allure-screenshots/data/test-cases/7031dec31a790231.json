@@ -1,12 +1,12 @@
 {
-  "uid" : "7233a19276af39e7",
-  "name" : "Загрузка фото в альбом-UploadPhotoToAlbum",
-  "fullName" : "test.DemoOrderTest.uploadPhotoInAlbum",
-  "historyId" : "a7519d805367d6283d9556065d9c18b2",
+  "uid" : "7031dec31a790231",
+  "name" : "Проверка DaData",
+  "fullName" : "test.DemoOrderTest.DadataTest",
+  "historyId" : "1571d5343153586fd1765d250748b7ed",
   "time" : {
-    "start" : 1780879723123,
-    "stop" : 1780879790894,
-    "duration" : 67771
+    "start" : 1780881627550,
+    "stop" : 1780881680881,
+    "duration" : 53331
   },
   "description" : "",
   "status" : "passed",
@@ -19,9 +19,9 @@
     "steps" : [ {
       "name" : "Проверка cookie и выведение на экран",
       "time" : {
-        "start" : 1780879723124,
-        "stop" : 1780879723126,
-        "duration" : 2
+        "start" : 1780881627550,
+        "stop" : 1780881627555,
+        "duration" : 5
       },
       "status" : "passed",
       "steps" : [ ],
@@ -35,11 +35,41 @@
       "stepsCount" : 0,
       "hasContent" : true
     }, {
+      "name" : "Очистка корзины API",
+      "time" : {
+        "start" : 1780881629566,
+        "stop" : 1780881630227,
+        "duration" : 661
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Повтор заказа с фото",
+      "time" : {
+        "start" : 1780881630227,
+        "stop" : 1780881630487,
+        "duration" : 260
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
       "name" : "Авторизация по e-token",
       "time" : {
-        "start" : 1780879723126,
-        "stop" : 1780879724638,
-        "duration" : 1512
+        "start" : 1780881630487,
+        "stop" : 1780881632008,
+        "duration" : 1521
       },
       "status" : "passed",
       "steps" : [ ],
@@ -52,9 +82,9 @@
     }, {
       "name" : "Авторизация по имейлу",
       "time" : {
-        "start" : 1780879724638,
-        "stop" : 1780879739271,
-        "duration" : 14633
+        "start" : 1780881632008,
+        "stop" : 1780881646557,
+        "duration" : 14549
       },
       "status" : "passed",
       "steps" : [ ],
@@ -67,9 +97,9 @@
     }, {
       "name" : "Открыть личный кабинет",
       "time" : {
-        "start" : 1780879739272,
-        "stop" : 1780879741299,
-        "duration" : 2027
+        "start" : 1780881646557,
+        "stop" : 1780881648570,
+        "duration" : 2013
       },
       "status" : "passed",
       "steps" : [ ],
@@ -80,29 +110,59 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Проверка cookie и выведение на экран",
+      "name" : "Открыть личный кабинет после главной страницы",
       "time" : {
-        "start" : 1780879741299,
-        "stop" : 1780879741313,
-        "duration" : 14
+        "start" : 1780881648571,
+        "stop" : 1780881657619,
+        "duration" : 9048
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Выбрать МОЕГО ГОРОДА НЕТ В СПИСКЕ",
+      "time" : {
+        "start" : 1780881657620,
+        "stop" : 1780881669059,
+        "duration" : 11439
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Заполнить улицу, корпус и дом с помощью DaData",
+      "time" : {
+        "start" : 1780881669059,
+        "stop" : 1780881670752,
+        "duration" : 1693
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
-        "name" : "cookieName",
-        "value" : "ph_ab_test_newdesign_new_design"
+        "name" : "Street",
+        "value" : "Нефедова 17"
       } ],
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
       "stepsCount" : 0,
       "hasContent" : true
     }, {
-      "name" : "Проверка, что личный кабинет подгружен",
+      "name" : "Заполнить номер квартиры в адресе",
       "time" : {
-        "start" : 1780879741313,
-        "stop" : 1780879741335,
-        "duration" : 22
+        "start" : 1780881670752,
+        "stop" : 1780881675852,
+        "duration" : 5100
       },
       "status" : "passed",
       "steps" : [ ],
@@ -113,56 +173,11 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Выбор раздела Мои альбомы",
+      "name" : "Проверить адрес, заполненный с помощью DaData",
       "time" : {
-        "start" : 1780879741335,
-        "stop" : 1780879742482,
-        "duration" : 1147
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : false
-    }, {
-      "name" : "Создание альбома",
-      "time" : {
-        "start" : 1780879742483,
-        "stop" : 1780879784562,
-        "duration" : 42079
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : false
-    }, {
-      "name" : "Загрузка фото в альбом",
-      "time" : {
-        "start" : 1780879784563,
-        "stop" : 1780879789736,
-        "duration" : 5173
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : false
-    }, {
-      "name" : "Проверить загруженные фото, клик на чек-бокс",
-      "time" : {
-        "start" : 1780879789736,
-        "stop" : 1780879790893,
-        "duration" : 1157
+        "start" : 1780881680863,
+        "stop" : 1780881680880,
+        "duration" : 17
       },
       "status" : "passed",
       "steps" : [ ],
@@ -177,7 +192,7 @@
     "parameters" : [ ],
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "stepsCount" : 10,
+    "stepsCount" : 11,
     "hasContent" : true
   },
   "afterStages" : [ ],
@@ -186,7 +201,7 @@
     "value" : "MacMiniWebIos.local"
   }, {
     "name" : "thread",
-    "value" : "93906@MacMiniWebIos.local.main(3)"
+    "value" : "94907@MacMiniWebIos.local.main(3)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -201,7 +216,7 @@
     "value" : "test.DemoOrderTest"
   }, {
     "name" : "testMethod",
-    "value" : "uploadPhotoInAlbum"
+    "value" : "DadataTest"
   }, {
     "name" : "suite",
     "value" : "test.DemoOrderTest"
@@ -219,6 +234,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "7233a19276af39e7.json",
+  "source" : "7031dec31a790231.json",
   "parameterValues" : [ ]
 }
