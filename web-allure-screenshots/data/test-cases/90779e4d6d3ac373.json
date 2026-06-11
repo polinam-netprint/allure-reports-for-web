@@ -1,12 +1,12 @@
 {
-  "uid" : "36844dafe1e93585",
-  "name" : "Проверка Моих Макетов-MyMakets",
-  "fullName" : "test.DemoOrderTest.myMaketsCheck",
-  "historyId" : "483298396508e44c15750cb26811de8d",
+  "uid" : "90779e4d6d3ac373",
+  "name" : "Заказ постера: неавторизованный юзер-PosterOrderUnauthorized",
+  "fullName" : "test.DemoOrderTest.posterOrderNotAuthorized",
+  "historyId" : "964a1e0b8f4c9287ac4a2678d7bd6dce",
   "time" : {
-    "start" : 1781191224695,
-    "stop" : 1781191253343,
-    "duration" : 28648
+    "start" : 1781192881683,
+    "stop" : 1781192894515,
+    "duration" : 12832
   },
   "description" : "",
   "status" : "passed",
@@ -19,9 +19,9 @@
     "steps" : [ {
       "name" : "Проверка cookie и выведение на экран",
       "time" : {
-        "start" : 1781191224695,
-        "stop" : 1781191224984,
-        "duration" : 289
+        "start" : 1781192881684,
+        "stop" : 1781192881687,
+        "duration" : 3
       },
       "status" : "passed",
       "steps" : [ ],
@@ -35,11 +35,47 @@
       "stepsCount" : 0,
       "hasContent" : true
     }, {
-      "name" : "Авторизация по имейлу",
+      "name" : "Выбор категории меню",
       "time" : {
-        "start" : 1781191224984,
-        "stop" : 1781191239513,
-        "duration" : 14529
+        "start" : 1781192881687,
+        "stop" : 1781192881935,
+        "duration" : 248
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "menuSec",
+        "value" : "Фотографии"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Выбор типа продукта",
+      "time" : {
+        "start" : 1781192881936,
+        "stop" : 1781192882001,
+        "duration" : 65
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "productType",
+        "value" : "Постеры"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Переход к оформлению макета из карточки товара",
+      "time" : {
+        "start" : 1781192882001,
+        "stop" : 1781192889475,
+        "duration" : 7474
       },
       "status" : "passed",
       "steps" : [ ],
@@ -50,11 +86,11 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Авторизация по e-token",
+      "name" : "Выбор темы макета",
       "time" : {
-        "start" : 1781191239513,
-        "stop" : 1781191241466,
-        "duration" : 1953
+        "start" : 1781192889475,
+        "stop" : 1781192890457,
+        "duration" : 982
       },
       "status" : "passed",
       "steps" : [ ],
@@ -65,11 +101,11 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Открыть личный кабинет",
+      "name" : "Выбор стиля макета",
       "time" : {
-        "start" : 1781191241466,
-        "stop" : 1781191242984,
-        "duration" : 1518
+        "start" : 1781192890457,
+        "stop" : 1781192890530,
+        "duration" : 73
       },
       "status" : "passed",
       "steps" : [ ],
@@ -80,11 +116,11 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Проверка, что личный кабинет подгружен",
+      "name" : "Переход в экспресс-редактор",
       "time" : {
-        "start" : 1781191242985,
-        "stop" : 1781191243015,
-        "duration" : 30
+        "start" : 1781192890530,
+        "stop" : 1781192890578,
+        "duration" : 48
       },
       "status" : "passed",
       "steps" : [ ],
@@ -95,26 +131,11 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Открыть раздел Мои макеты",
+      "name" : "Переход в корзину из экспресс-редактора",
       "time" : {
-        "start" : 1781191243015,
-        "stop" : 1781191244276,
-        "duration" : 1261
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : false
-    }, {
-      "name" : "Проверить, что раздел Мои макеты подгружены",
-      "time" : {
-        "start" : 1781191244276,
-        "stop" : 1781191253343,
-        "duration" : 9067
+        "start" : 1781192890578,
+        "stop" : 1781192892573,
+        "duration" : 1995
       },
       "status" : "passed",
       "steps" : [ ],
@@ -129,16 +150,19 @@
     "parameters" : [ ],
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "stepsCount" : 7,
+    "stepsCount" : 8,
     "hasContent" : true
   },
   "afterStages" : [ ],
   "labels" : [ {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
     "name" : "host",
     "value" : "MacMiniWebIos.local"
   }, {
     "name" : "thread",
-    "value" : "57562@MacMiniWebIos.local.main(3)"
+    "value" : "58499@MacMiniWebIos.local.main(3)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -153,7 +177,7 @@
     "value" : "test.DemoOrderTest"
   }, {
     "name" : "testMethod",
-    "value" : "myMaketsCheck"
+    "value" : "posterOrderNotAuthorized"
   }, {
     "name" : "suite",
     "value" : "test.DemoOrderTest"
@@ -169,8 +193,8 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "tags" : [ ]
+    "tags" : [ "smoke" ]
   },
-  "source" : "36844dafe1e93585.json",
+  "source" : "90779e4d6d3ac373.json",
   "parameterValues" : [ ]
 }
