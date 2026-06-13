@@ -1,12 +1,12 @@
 {
-  "uid" : "1a8dfdcc7a90308",
-  "name" : "Добавление в корзину карманного календарика-AddPocketCalendar",
-  "fullName" : "test.DemoOrderTest.calendOrderAuthorised",
-  "historyId" : "514ff39a5161779d81b58d4093ad1e81",
+  "uid" : "af4168cdacf30fc6",
+  "name" : "Проверка DaData",
+  "fullName" : "test.DemoOrderTest.DadataTest",
+  "historyId" : "1571d5343153586fd1765d250748b7ed",
   "time" : {
-    "start" : 1781330038185,
-    "stop" : 1781330113560,
-    "duration" : 75375
+    "start" : 1781331633728,
+    "stop" : 1781331686638,
+    "duration" : 52910
   },
   "description" : "",
   "status" : "passed",
@@ -19,9 +19,9 @@
     "steps" : [ {
       "name" : "Проверка cookie и выведение на экран",
       "time" : {
-        "start" : 1781330038186,
-        "stop" : 1781330038219,
-        "duration" : 33
+        "start" : 1781331633729,
+        "stop" : 1781331633733,
+        "duration" : 4
       },
       "status" : "passed",
       "steps" : [ ],
@@ -35,10 +35,40 @@
       "stepsCount" : 0,
       "hasContent" : true
     }, {
+      "name" : "Очистка корзины API",
+      "time" : {
+        "start" : 1781331635744,
+        "stop" : 1781331636270,
+        "duration" : 526
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Повтор заказа с фото",
+      "time" : {
+        "start" : 1781331636270,
+        "stop" : 1781331636525,
+        "duration" : 255
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
       "name" : "Авторизация по e-token",
       "time" : {
-        "start" : 1781330040229,
-        "stop" : 1781330041743,
+        "start" : 1781331636526,
+        "stop" : 1781331638040,
         "duration" : 1514
       },
       "status" : "passed",
@@ -52,9 +82,9 @@
     }, {
       "name" : "Авторизация по имейлу",
       "time" : {
-        "start" : 1781330041744,
-        "stop" : 1781330056336,
-        "duration" : 14592
+        "start" : 1781331638040,
+        "stop" : 1781331652643,
+        "duration" : 14603
       },
       "status" : "passed",
       "steps" : [ ],
@@ -65,29 +95,74 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Выбор категории меню",
+      "name" : "Открыть личный кабинет",
       "time" : {
-        "start" : 1781330056336,
-        "stop" : 1781330057048,
-        "duration" : 712
+        "start" : 1781331652643,
+        "stop" : 1781331654576,
+        "duration" : 1933
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Открыть личный кабинет после главной страницы",
+      "time" : {
+        "start" : 1781331654577,
+        "stop" : 1781331663619,
+        "duration" : 9042
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Выбрать МОЕГО ГОРОДА НЕТ В СПИСКЕ",
+      "time" : {
+        "start" : 1781331663620,
+        "stop" : 1781331675066,
+        "duration" : 11446
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Заполнить улицу, корпус и дом с помощью DaData",
+      "time" : {
+        "start" : 1781331675066,
+        "stop" : 1781331676502,
+        "duration" : 1436
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
-        "name" : "menuSec",
-        "value" : "Календари"
+        "name" : "Street",
+        "value" : "Нефедова 17"
       } ],
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
       "stepsCount" : 0,
       "hasContent" : true
     }, {
-      "name" : "Выбор типа продукта",
+      "name" : "Заполнить номер квартиры в адресе",
       "time" : {
-        "start" : 1781330057048,
-        "stop" : 1781330057551,
-        "duration" : 503
+        "start" : 1781331676502,
+        "stop" : 1781331681614,
+        "duration" : 5112
       },
       "status" : "passed",
       "steps" : [ ],
@@ -98,86 +173,11 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Переход к оформлению макета из карточки товара",
+      "name" : "Проверить адрес, заполненный с помощью DaData",
       "time" : {
-        "start" : 1781330057551,
-        "stop" : 1781330063316,
-        "duration" : 5765
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : false
-    }, {
-      "name" : "Выбрать стиль макета",
-      "time" : {
-        "start" : 1781330063316,
-        "stop" : 1781330064647,
-        "duration" : 1331
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : false
-    }, {
-      "name" : "Переход в экспресс-редактор",
-      "time" : {
-        "start" : 1781330064647,
-        "stop" : 1781330064694,
-        "duration" : 47
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : false
-    }, {
-      "name" : "Выбрать загруженные фото в редакторе",
-      "time" : {
-        "start" : 1781330064694,
-        "stop" : 1781330068231,
-        "duration" : 3537
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : false
-    }, {
-      "name" : "Загрузка фото в экспресс-редакторе",
-      "time" : {
-        "start" : 1781330068232,
-        "stop" : 1781330110891,
-        "duration" : 42659
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : false
-    }, {
-      "name" : "Добавить в корзину из экспресс-редактора",
-      "time" : {
-        "start" : 1781330110891,
-        "stop" : 1781330110982,
-        "duration" : 91
+        "start" : 1781331686619,
+        "stop" : 1781331686638,
+        "duration" : 19
       },
       "status" : "passed",
       "steps" : [ ],
@@ -201,7 +201,7 @@
     "value" : "MacMiniWebIos.local"
   }, {
     "name" : "thread",
-    "value" : "29673@MacMiniWebIos.local.main(3)"
+    "value" : "30686@MacMiniWebIos.local.main(3)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -216,7 +216,7 @@
     "value" : "test.DemoOrderTest"
   }, {
     "name" : "testMethod",
-    "value" : "calendOrderAuthorised"
+    "value" : "DadataTest"
   }, {
     "name" : "suite",
     "value" : "test.DemoOrderTest"
@@ -230,19 +230,10 @@
   "retry" : false,
   "extra" : {
     "severity" : "normal",
-    "retries" : [ {
-      "uid" : "d92bf094305532e0",
-      "status" : "failed",
-      "statusDetails" : "Element should be visible {with text: тему оформления}\nElement: '<div class=\"btn btn-primary product-card-bottom-btn-order btn-order--js\" ga-action=\"click\" ga-action-click-omsid=\"PRODUCTION_CALENDAR_POCKET\" ga-action-click-type=\"click.ProductPage\" id=\"old-choose-theme-btn-standard\" displayed:false></div>'\nActual value: hidden\nScreenshot: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1781329557621.0.png\nPage source: file:/Users/Shared/gitlab-runner/builds/Ky1S2xgCM/0/autotests/WebNew/build/reports/tests/1781329557621.0.html\nTimeout: 90 s.",
-      "time" : {
-        "start" : 1781329446170,
-        "stop" : 1781329558363,
-        "duration" : 112193
-      }
-    } ],
+    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "1a8dfdcc7a90308.json",
+  "source" : "af4168cdacf30fc6.json",
   "parameterValues" : [ ]
 }
