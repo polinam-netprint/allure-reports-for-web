@@ -1,12 +1,12 @@
 {
-  "uid" : "cffe8892d245b3e6",
-  "name" : "Оплата Paykeeper QR",
-  "fullName" : "test.DemoOrderTest.orderByPaykeeper",
-  "historyId" : "a2095be1cb5e5e926e300a4c4a14274b",
+  "uid" : "d46c23040ae8d478",
+  "name" : "Пополнение лицевого счёта в личном кабинете-TopUpAccount",
+  "fullName" : "test.DemoOrderTest.orderTopUpAccount",
+  "historyId" : "efa837afbc6d92b790a3a92ca90d555c",
   "time" : {
-    "start" : 1781689692049,
-    "stop" : 1781689741447,
-    "duration" : 49398
+    "start" : 1781691220653,
+    "stop" : 1781691251204,
+    "duration" : 30551
   },
   "description" : "",
   "status" : "passed",
@@ -19,9 +19,9 @@
     "steps" : [ {
       "name" : "Проверка cookie и выведение на экран",
       "time" : {
-        "start" : 1781689692050,
-        "stop" : 1781689692054,
-        "duration" : 4
+        "start" : 1781691220669,
+        "stop" : 1781691220675,
+        "duration" : 6
       },
       "status" : "passed",
       "steps" : [ ],
@@ -35,41 +35,11 @@
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
-      "name" : "Очистка корзины API",
-      "time" : {
-        "start" : 1781689694206,
-        "stop" : 1781689694771,
-        "duration" : 565
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "Повтор заказа с фото",
-      "time" : {
-        "start" : 1781689694771,
-        "stop" : 1781689695054,
-        "duration" : 283
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
       "name" : "Авторизация по e-token",
       "time" : {
-        "start" : 1781689695054,
-        "stop" : 1781689696595,
-        "duration" : 1541
+        "start" : 1781691220679,
+        "stop" : 1781691222308,
+        "duration" : 1629
       },
       "status" : "passed",
       "steps" : [ ],
@@ -82,9 +52,9 @@
     }, {
       "name" : "Авторизация по имейлу",
       "time" : {
-        "start" : 1781689696596,
-        "stop" : 1781689711752,
-        "duration" : 15156
+        "start" : 1781691222308,
+        "stop" : 1781691237499,
+        "duration" : 15191
       },
       "status" : "passed",
       "steps" : [ ],
@@ -97,9 +67,9 @@
     }, {
       "name" : "Открыть личный кабинет",
       "time" : {
-        "start" : 1781689711752,
-        "stop" : 1781689713825,
-        "duration" : 2073
+        "start" : 1781691237515,
+        "stop" : 1781691239665,
+        "duration" : 2150
       },
       "status" : "passed",
       "steps" : [ ],
@@ -110,11 +80,11 @@
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
-      "name" : "Выбрать ПВЗ",
+      "name" : "Выбор раздела Мои финансы",
       "time" : {
-        "start" : 1781689723380,
-        "stop" : 1781689733569,
-        "duration" : 10189
+        "start" : 1781691239666,
+        "stop" : 1781691240301,
+        "duration" : 635
       },
       "status" : "passed",
       "steps" : [ ],
@@ -125,26 +95,29 @@
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
-      "name" : "Создать заказ",
+      "name" : "Заполнить данные для пополнения Лицевого счета",
       "time" : {
-        "start" : 1781689733570,
-        "stop" : 1781689735263,
-        "duration" : 1693
+        "start" : 1781691240302,
+        "stop" : 1781691244736,
+        "duration" : 4434
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
-      "parameters" : [ ],
+      "parameters" : [ {
+        "name" : "sum",
+        "value" : "11"
+      } ],
       "stepsCount" : 0,
-      "hasContent" : false,
+      "hasContent" : true,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
-      "name" : "Проверить открытие пейкипера QR",
+      "name" : "Проверить открытие пейкипера",
       "time" : {
-        "start" : 1781689735264,
-        "stop" : 1781689741447,
-        "duration" : 6183
+        "start" : 1781691244743,
+        "stop" : 1781691251188,
+        "duration" : 6445
       },
       "status" : "passed",
       "steps" : [ ],
@@ -157,7 +130,7 @@
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 9,
+    "stepsCount" : 7,
     "hasContent" : true,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false
@@ -168,7 +141,7 @@
     "value" : "MacMiniWebIos.local"
   }, {
     "name" : "thread",
-    "value" : "19224@MacMiniWebIos.local.main(3)"
+    "value" : "22798@MacMiniWebIos.local.main(3)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -183,7 +156,7 @@
     "value" : "test.DemoOrderTest"
   }, {
     "name" : "testMethod",
-    "value" : "orderByPaykeeper"
+    "value" : "orderTopUpAccount"
   }, {
     "name" : "suite",
     "value" : "test.DemoOrderTest"
@@ -201,6 +174,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "cffe8892d245b3e6.json",
+  "source" : "d46c23040ae8d478.json",
   "parameterValues" : [ ]
 }
