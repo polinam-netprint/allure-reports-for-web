@@ -1,12 +1,12 @@
 {
-  "uid" : "dbd7808571a4bdd6",
-  "name" : "Добавление в корзину карманного календарика-AddPocketCalendar",
-  "fullName" : "test.DemoOrderTest.calendOrderAuthorised",
-  "historyId" : "514ff39a5161779d81b58d4093ad1e81",
+  "uid" : "5e314103f63184b8",
+  "name" : "Создание книги в онлайн-редакторе-BookOnlineEditor",
+  "fullName" : "test.DemoOrderTest.createBookInOnline",
+  "historyId" : "cf6eb5a5efa26403a9de025fb9d0e285",
   "time" : {
-    "start" : 1782774871471,
-    "stop" : 1782774961669,
-    "duration" : 90198
+    "start" : 1782778552033,
+    "stop" : 1782778661321,
+    "duration" : 109288
   },
   "description" : "",
   "status" : "passed",
@@ -19,9 +19,9 @@
     "steps" : [ {
       "name" : "Проверка cookie и выведение на экран",
       "time" : {
-        "start" : 1782774871472,
-        "stop" : 1782774871476,
-        "duration" : 4
+        "start" : 1782778552033,
+        "stop" : 1782778552041,
+        "duration" : 8
       },
       "status" : "passed",
       "steps" : [ ],
@@ -35,11 +35,26 @@
       "stepsCount" : 0,
       "hasContent" : true
     }, {
+      "name" : "Очистка корзины API",
+      "time" : {
+        "start" : 1782778552044,
+        "stop" : 1782778553328,
+        "duration" : 1284
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
       "name" : "Авторизация по e-token",
       "time" : {
-        "start" : 1782774873629,
-        "stop" : 1782774875137,
-        "duration" : 1508
+        "start" : 1782778553328,
+        "stop" : 1782778554835,
+        "duration" : 1507
       },
       "status" : "passed",
       "steps" : [ ],
@@ -52,9 +67,9 @@
     }, {
       "name" : "Авторизация по имейлу",
       "time" : {
-        "start" : 1782774875137,
-        "stop" : 1782774890660,
-        "duration" : 15523
+        "start" : 1782778554835,
+        "stop" : 1782778570148,
+        "duration" : 15313
       },
       "status" : "passed",
       "steps" : [ ],
@@ -67,16 +82,16 @@
     }, {
       "name" : "Выбор категории меню",
       "time" : {
-        "start" : 1782774890666,
-        "stop" : 1782774893363,
-        "duration" : 2697
+        "start" : 1782778570155,
+        "stop" : 1782778570902,
+        "duration" : 747
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "menuSec",
-        "value" : "Календари"
+        "value" : "Фотокниги"
       } ],
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
@@ -85,9 +100,27 @@
     }, {
       "name" : "Выбор типа продукта",
       "time" : {
-        "start" : 1782774893363,
-        "stop" : 1782774893853,
-        "duration" : 490
+        "start" : 1782778570903,
+        "stop" : 1782778571448,
+        "duration" : 545
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "productType",
+        "value" : "Твердая обложка"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Открыть личный кабинет",
+      "time" : {
+        "start" : 1782778571448,
+        "stop" : 1782778573283,
+        "duration" : 1835
       },
       "status" : "passed",
       "steps" : [ ],
@@ -98,11 +131,11 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Переход к оформлению макета из карточки товара",
+      "name" : "Переход в Мои альбомы",
       "time" : {
-        "start" : 1782774893858,
-        "stop" : 1782774900883,
-        "duration" : 7025
+        "start" : 1782778573284,
+        "stop" : 1782778578041,
+        "duration" : 4757
       },
       "status" : "passed",
       "steps" : [ ],
@@ -113,11 +146,11 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Выбрать стиль макета",
+      "name" : "Обновление альбома для фотокниги",
       "time" : {
-        "start" : 1782774900883,
-        "stop" : 1782774902601,
-        "duration" : 1718
+        "start" : 1782778578041,
+        "stop" : 1782778596384,
+        "duration" : 18343
       },
       "status" : "passed",
       "steps" : [ ],
@@ -128,11 +161,29 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Переход в экспресс-редактор",
+      "name" : "Выбор категории меню",
       "time" : {
-        "start" : 1782774902601,
-        "stop" : 1782774902648,
-        "duration" : 47
+        "start" : 1782778605215,
+        "stop" : 1782778605529,
+        "duration" : 314
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "menuSec",
+        "value" : "Фотокниги"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Выбрать Фотокнигу стандарт",
+      "time" : {
+        "start" : 1782778605530,
+        "stop" : 1782778605587,
+        "duration" : 57
       },
       "status" : "passed",
       "steps" : [ ],
@@ -143,11 +194,11 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Выбрать загруженные фото в редакторе",
+      "name" : "Выбор фотокниги Премиум и переход к оформлению",
       "time" : {
-        "start" : 1782774902652,
-        "stop" : 1782774906911,
-        "duration" : 4259
+        "start" : 1782778608152,
+        "stop" : 1782778608219,
+        "duration" : 67
       },
       "status" : "passed",
       "steps" : [ ],
@@ -158,11 +209,11 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Загрузка фото в экспресс-редакторе",
+      "name" : "Выбрать Ваш стиль Премиум",
       "time" : {
-        "start" : 1782774906920,
-        "stop" : 1782774955404,
-        "duration" : 48484
+        "start" : 1782778611303,
+        "stop" : 1782778611371,
+        "duration" : 68
       },
       "status" : "passed",
       "steps" : [ ],
@@ -173,11 +224,41 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Добавить в корзину из экспресс-редактора",
+      "name" : "Переход в онлайн-редактор",
       "time" : {
-        "start" : 1782774955404,
-        "stop" : 1782774955497,
-        "duration" : 93
+        "start" : 1782778611372,
+        "stop" : 1782778618535,
+        "duration" : 7163
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Автозаполнение книги фотографиями из обновленного альбома",
+      "time" : {
+        "start" : 1782778625782,
+        "stop" : 1782778654374,
+        "duration" : 28592
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Просмотреть все страницы книги и добавить в корзину книгу",
+      "time" : {
+        "start" : 1782778654374,
+        "stop" : 1782778655164,
+        "duration" : 790
       },
       "status" : "passed",
       "steps" : [ ],
@@ -192,7 +273,7 @@
     "parameters" : [ ],
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "stepsCount" : 11,
+    "stepsCount" : 16,
     "hasContent" : true
   },
   "afterStages" : [ ],
@@ -201,7 +282,7 @@
     "value" : "MacMiniWebIos.local"
   }, {
     "name" : "thread",
-    "value" : "17412@MacMiniWebIos.local.main(3)"
+    "value" : "18822@MacMiniWebIos.local.main(3)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -216,7 +297,7 @@
     "value" : "test.DemoOrderTest"
   }, {
     "name" : "testMethod",
-    "value" : "calendOrderAuthorised"
+    "value" : "createBookInOnline"
   }, {
     "name" : "suite",
     "value" : "test.DemoOrderTest"
@@ -234,6 +315,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "dbd7808571a4bdd6.json",
+  "source" : "5e314103f63184b8.json",
   "parameterValues" : [ ]
 }
