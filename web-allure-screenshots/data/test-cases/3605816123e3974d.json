@@ -1,12 +1,12 @@
 {
-  "uid" : "af7c13ff3c127686",
-  "name" : "Загрузка фото в альбом-UploadPhotoToAlbum",
-  "fullName" : "test.DemoOrderTest.uploadPhotoInAlbum",
-  "historyId" : "a7519d805367d6283d9556065d9c18b2",
+  "uid" : "3605816123e3974d",
+  "name" : "Оплата Paykeeper QR",
+  "fullName" : "test.DemoOrderTest.orderByPaykeeper",
+  "historyId" : "a2095be1cb5e5e926e300a4c4a14274b",
   "time" : {
-    "start" : 1782850713147,
-    "stop" : 1782850758793,
-    "duration" : 45646
+    "start" : 1782854271349,
+    "stop" : 1782854320652,
+    "duration" : 49303
   },
   "description" : "",
   "status" : "passed",
@@ -19,9 +19,9 @@
     "steps" : [ {
       "name" : "Проверка cookie и выведение на экран",
       "time" : {
-        "start" : 1782850713148,
-        "stop" : 1782850713151,
-        "duration" : 3
+        "start" : 1782854271350,
+        "stop" : 1782854271358,
+        "duration" : 8
       },
       "status" : "passed",
       "steps" : [ ],
@@ -35,11 +35,41 @@
       "stepsCount" : 0,
       "hasContent" : true
     }, {
+      "name" : "Очистка корзины API",
+      "time" : {
+        "start" : 1782854273406,
+        "stop" : 1782854274048,
+        "duration" : 642
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Повтор заказа с фото",
+      "time" : {
+        "start" : 1782854274048,
+        "stop" : 1782854274349,
+        "duration" : 301
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
       "name" : "Авторизация по e-token",
       "time" : {
-        "start" : 1782850713151,
-        "stop" : 1782850714655,
-        "duration" : 1504
+        "start" : 1782854274350,
+        "stop" : 1782854275904,
+        "duration" : 1554
       },
       "status" : "passed",
       "steps" : [ ],
@@ -52,9 +82,9 @@
     }, {
       "name" : "Авторизация по имейлу",
       "time" : {
-        "start" : 1782850714655,
-        "stop" : 1782850731145,
-        "duration" : 16490
+        "start" : 1782854275909,
+        "stop" : 1782854290818,
+        "duration" : 14909
       },
       "status" : "passed",
       "steps" : [ ],
@@ -67,9 +97,9 @@
     }, {
       "name" : "Открыть личный кабинет",
       "time" : {
-        "start" : 1782850731147,
-        "stop" : 1782850733277,
-        "duration" : 2130
+        "start" : 1782854290819,
+        "stop" : 1782854293007,
+        "duration" : 2188
       },
       "status" : "passed",
       "steps" : [ ],
@@ -80,29 +110,11 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Проверка cookie и выведение на экран",
+      "name" : "Выбрать ПВЗ",
       "time" : {
-        "start" : 1782850733281,
-        "stop" : 1782850733297,
-        "duration" : 16
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ {
-        "name" : "cookieName",
-        "value" : "ph_ab_test_newdesign_new_design"
-      } ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : true
-    }, {
-      "name" : "Проверка, что личный кабинет подгружен",
-      "time" : {
-        "start" : 1782850733297,
-        "stop" : 1782850733324,
-        "duration" : 27
+        "start" : 1782854303253,
+        "stop" : 1782854313386,
+        "duration" : 10133
       },
       "status" : "passed",
       "steps" : [ ],
@@ -113,11 +125,11 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Выбор раздела Мои альбомы",
+      "name" : "Создать заказ",
       "time" : {
-        "start" : 1782850733324,
-        "stop" : 1782850734809,
-        "duration" : 1485
+        "start" : 1782854313396,
+        "stop" : 1782854315136,
+        "duration" : 1740
       },
       "status" : "passed",
       "steps" : [ ],
@@ -128,41 +140,11 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Создание альбома",
+      "name" : "Проверить открытие пейкипера QR",
       "time" : {
-        "start" : 1782850734810,
-        "stop" : 1782850752112,
-        "duration" : 17302
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : false
-    }, {
-      "name" : "Загрузка фото в альбом",
-      "time" : {
-        "start" : 1782850752113,
-        "stop" : 1782850757598,
-        "duration" : 5485
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : false
-    }, {
-      "name" : "Проверить загруженные фото, клик на чек-бокс",
-      "time" : {
-        "start" : 1782850757601,
-        "stop" : 1782850758792,
-        "duration" : 1191
+        "start" : 1782854315138,
+        "stop" : 1782854320651,
+        "duration" : 5513
       },
       "status" : "passed",
       "steps" : [ ],
@@ -177,7 +159,7 @@
     "parameters" : [ ],
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "stepsCount" : 10,
+    "stepsCount" : 9,
     "hasContent" : true
   },
   "afterStages" : [ ],
@@ -186,7 +168,7 @@
     "value" : "MacMiniWebIos.local"
   }, {
     "name" : "thread",
-    "value" : "68522@MacMiniWebIos.local.main(3)"
+    "value" : "73550@MacMiniWebIos.local.main(3)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -201,7 +183,7 @@
     "value" : "test.DemoOrderTest"
   }, {
     "name" : "testMethod",
-    "value" : "uploadPhotoInAlbum"
+    "value" : "orderByPaykeeper"
   }, {
     "name" : "suite",
     "value" : "test.DemoOrderTest"
@@ -219,6 +201,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "af7c13ff3c127686.json",
+  "source" : "3605816123e3974d.json",
   "parameterValues" : [ ]
 }
