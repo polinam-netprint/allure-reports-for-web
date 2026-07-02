@@ -1,12 +1,12 @@
 {
-  "uid" : "35aa1408e732adff",
-  "name" : "Создание макета в SVG-редакторе",
-  "fullName" : "test.DemoOrderTest.SVGOrder",
-  "historyId" : "775a3d2a4e85ca9c8b290e2d0dfcf0c6",
+  "uid" : "9245a5302cec0607",
+  "name" : "Создание книги в онлайн-редакторе-BookOnlineEditor",
+  "fullName" : "test.DemoOrderTest.createBookInOnline",
+  "historyId" : "cf6eb5a5efa26403a9de025fb9d0e285",
   "time" : {
-    "start" : 1782951563867,
-    "stop" : 1782951592025,
-    "duration" : 28158
+    "start" : 1782954948140,
+    "stop" : 1782955056748,
+    "duration" : 108608
   },
   "description" : "",
   "status" : "passed",
@@ -19,9 +19,9 @@
     "steps" : [ {
       "name" : "Проверка cookie и выведение на экран",
       "time" : {
-        "start" : 1782951563867,
-        "stop" : 1782951563871,
-        "duration" : 4
+        "start" : 1782954948140,
+        "stop" : 1782954948145,
+        "duration" : 5
       },
       "status" : "passed",
       "steps" : [ ],
@@ -37,9 +37,9 @@
     }, {
       "name" : "Очистка корзины API",
       "time" : {
-        "start" : 1782951563871,
-        "stop" : 1782951564425,
-        "duration" : 554
+        "start" : 1782954948148,
+        "stop" : 1782954949318,
+        "duration" : 1170
       },
       "status" : "passed",
       "steps" : [ ],
@@ -52,9 +52,9 @@
     }, {
       "name" : "Авторизация по e-token",
       "time" : {
-        "start" : 1782951564434,
-        "stop" : 1782951566018,
-        "duration" : 1584
+        "start" : 1782954949318,
+        "stop" : 1782954950874,
+        "duration" : 1556
       },
       "status" : "passed",
       "steps" : [ ],
@@ -67,9 +67,9 @@
     }, {
       "name" : "Авторизация по имейлу",
       "time" : {
-        "start" : 1782951566018,
-        "stop" : 1782951578257,
-        "duration" : 12239
+        "start" : 1782954950875,
+        "stop" : 1782954966039,
+        "duration" : 15164
       },
       "status" : "passed",
       "steps" : [ ],
@@ -82,9 +82,9 @@
     }, {
       "name" : "Выбор категории меню",
       "time" : {
-        "start" : 1782951578257,
-        "stop" : 1782951578936,
-        "duration" : 679
+        "start" : 1782954966050,
+        "stop" : 1782954966701,
+        "duration" : 651
       },
       "status" : "passed",
       "steps" : [ ],
@@ -98,11 +98,29 @@
       "stepsCount" : 0,
       "hasContent" : true
     }, {
-      "name" : "Выбрать моментбук",
+      "name" : "Выбор типа продукта",
       "time" : {
-        "start" : 1782951578939,
-        "stop" : 1782951579003,
-        "duration" : 64
+        "start" : 1782954966701,
+        "stop" : 1782954966759,
+        "duration" : 58
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "productType",
+        "value" : "Твердая обложка"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Открыть личный кабинет",
+      "time" : {
+        "start" : 1782954966759,
+        "stop" : 1782954968922,
+        "duration" : 2163
       },
       "status" : "passed",
       "steps" : [ ],
@@ -113,11 +131,11 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Приветственная навигация",
+      "name" : "Переход в Мои альбомы",
       "time" : {
-        "start" : 1782951580082,
-        "stop" : 1782951581184,
-        "duration" : 1102
+        "start" : 1782954968923,
+        "stop" : 1782954973718,
+        "duration" : 4795
       },
       "status" : "passed",
       "steps" : [ ],
@@ -128,11 +146,11 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Выбрать автосборку",
+      "name" : "Обновление альбома для фотокниги",
       "time" : {
-        "start" : 1782951581184,
-        "stop" : 1782951581268,
-        "duration" : 84
+        "start" : 1782954973718,
+        "stop" : 1782954991379,
+        "duration" : 17661
       },
       "status" : "passed",
       "steps" : [ ],
@@ -143,11 +161,29 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Выбрать раздел фото для наполнения книги",
+      "name" : "Выбор категории меню",
       "time" : {
-        "start" : 1782951581268,
-        "stop" : 1782951581742,
-        "duration" : 474
+        "start" : 1782955000060,
+        "stop" : 1782955000208,
+        "duration" : 148
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "menuSec",
+        "value" : "Фотокниги"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Выбрать Фотокнигу стандарт",
+      "time" : {
+        "start" : 1782955000209,
+        "stop" : 1782955000276,
+        "duration" : 67
       },
       "status" : "passed",
       "steps" : [ ],
@@ -158,11 +194,11 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Выбрать чекбокс с альбомом для наполнения книги",
+      "name" : "Выбор фотокниги Премиум и переход к оформлению",
       "time" : {
-        "start" : 1782951581742,
-        "stop" : 1782951582084,
-        "duration" : 342
+        "start" : 1782955002674,
+        "stop" : 1782955002760,
+        "duration" : 86
       },
       "status" : "passed",
       "steps" : [ ],
@@ -173,11 +209,11 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Дать наименование экспресс-книги",
+      "name" : "Выбрать Ваш стиль Премиум",
       "time" : {
-        "start" : 1782951582084,
-        "stop" : 1782951582582,
-        "duration" : 498
+        "start" : 1782955005554,
+        "stop" : 1782955005634,
+        "duration" : 80
       },
       "status" : "passed",
       "steps" : [ ],
@@ -188,11 +224,11 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Выбрать разные компоновки",
+      "name" : "Переход в онлайн-редактор",
       "time" : {
-        "start" : 1782951582582,
-        "stop" : 1782951582669,
-        "duration" : 87
+        "start" : 1782955005634,
+        "stop" : 1782955012780,
+        "duration" : 7146
       },
       "status" : "passed",
       "steps" : [ ],
@@ -203,11 +239,26 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Сохранить макет в Мои макеты",
+      "name" : "Автозаполнение книги фотографиями из обновленного альбома",
       "time" : {
-        "start" : 1782951582669,
-        "stop" : 1782951585872,
-        "duration" : 3203
+        "start" : 1782955020168,
+        "stop" : 1782955049831,
+        "duration" : 29663
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Просмотреть все страницы книги и добавить в корзину книгу",
+      "time" : {
+        "start" : 1782955049831,
+        "stop" : 1782955050568,
+        "duration" : 737
       },
       "status" : "passed",
       "steps" : [ ],
@@ -222,7 +273,7 @@
     "parameters" : [ ],
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "stepsCount" : 13,
+    "stepsCount" : 16,
     "hasContent" : true
   },
   "afterStages" : [ ],
@@ -231,7 +282,7 @@
     "value" : "MacMiniWebIos.local"
   }, {
     "name" : "thread",
-    "value" : "9633@MacMiniWebIos.local.main(3)"
+    "value" : "10620@MacMiniWebIos.local.main(3)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -246,7 +297,7 @@
     "value" : "test.DemoOrderTest"
   }, {
     "name" : "testMethod",
-    "value" : "SVGOrder"
+    "value" : "createBookInOnline"
   }, {
     "name" : "suite",
     "value" : "test.DemoOrderTest"
@@ -264,6 +315,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "35aa1408e732adff.json",
+  "source" : "9245a5302cec0607.json",
   "parameterValues" : [ ]
 }
