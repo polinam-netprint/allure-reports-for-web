@@ -1,12 +1,12 @@
 {
-  "uid" : "d0f485d1d344e681",
-  "name" : "Проверка Моих Макетов-MyMakets",
-  "fullName" : "test.DemoOrderTest.myMaketsCheck",
-  "historyId" : "483298396508e44c15750cb26811de8d",
+  "uid" : "b9e599493f46076e",
+  "name" : "Проверка DaData",
+  "fullName" : "test.DemoOrderTest.DadataTest",
+  "historyId" : "1571d5343153586fd1765d250748b7ed",
   "time" : {
-    "start" : 1783599595183,
-    "stop" : 1783599621867,
-    "duration" : 26684
+    "start" : 1783603233805,
+    "stop" : 1783603288505,
+    "duration" : 54700
   },
   "description" : "",
   "status" : "passed",
@@ -19,9 +19,9 @@
     "steps" : [ {
       "name" : "Проверка cookie и выведение на экран",
       "time" : {
-        "start" : 1783599595183,
-        "stop" : 1783599595186,
-        "duration" : 3
+        "start" : 1783603233805,
+        "stop" : 1783603233809,
+        "duration" : 4
       },
       "status" : "passed",
       "steps" : [ ],
@@ -35,11 +35,26 @@
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
-      "name" : "Авторизация по имейлу",
+      "name" : "Очистка корзины API",
       "time" : {
-        "start" : 1783599595187,
-        "stop" : 1783599610357,
-        "duration" : 15170
+        "start" : 1783603235960,
+        "stop" : 1783603236498,
+        "duration" : 538
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Повтор заказа с фото",
+      "time" : {
+        "start" : 1783603236499,
+        "stop" : 1783603236759,
+        "duration" : 260
       },
       "status" : "passed",
       "steps" : [ ],
@@ -52,9 +67,24 @@
     }, {
       "name" : "Авторизация по e-token",
       "time" : {
-        "start" : 1783599610357,
-        "stop" : 1783599612499,
-        "duration" : 2142
+        "start" : 1783603236759,
+        "stop" : 1783603238416,
+        "duration" : 1657
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Авторизация по имейлу",
+      "time" : {
+        "start" : 1783603238417,
+        "stop" : 1783603253558,
+        "duration" : 15141
       },
       "status" : "passed",
       "steps" : [ ],
@@ -67,9 +97,9 @@
     }, {
       "name" : "Открыть личный кабинет",
       "time" : {
-        "start" : 1783599612500,
-        "stop" : 1783599614026,
-        "duration" : 1526
+        "start" : 1783603253558,
+        "stop" : 1783603255690,
+        "duration" : 2132
       },
       "status" : "passed",
       "steps" : [ ],
@@ -80,11 +110,11 @@
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
-      "name" : "Проверка, что личный кабинет подгружен",
+      "name" : "Открыть личный кабинет после главной страницы",
       "time" : {
-        "start" : 1783599614026,
-        "stop" : 1783599614048,
-        "duration" : 22
+        "start" : 1783603255690,
+        "stop" : 1783603265011,
+        "duration" : 9321
       },
       "status" : "passed",
       "steps" : [ ],
@@ -95,11 +125,11 @@
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
-      "name" : "Открыть раздел Мои макеты",
+      "name" : "Выбрать МОЕГО ГОРОДА НЕТ В СПИСКЕ",
       "time" : {
-        "start" : 1783599614049,
-        "stop" : 1783599614862,
-        "duration" : 813
+        "start" : 1783603265011,
+        "stop" : 1783603276501,
+        "duration" : 11490
       },
       "status" : "passed",
       "steps" : [ ],
@@ -110,11 +140,44 @@
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
-      "name" : "Проверить, что раздел Мои макеты подгружены",
+      "name" : "Заполнить улицу, корпус и дом с помощью DaData",
       "time" : {
-        "start" : 1783599614863,
-        "stop" : 1783599621866,
-        "duration" : 7003
+        "start" : 1783603276501,
+        "stop" : 1783603278109,
+        "duration" : 1608
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "Street",
+        "value" : "Нефедова 17"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Заполнить номер квартиры в адресе",
+      "time" : {
+        "start" : 1783603278109,
+        "stop" : 1783603283358,
+        "duration" : 5249
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверить адрес, заполненный с помощью DaData",
+      "time" : {
+        "start" : 1783603288486,
+        "stop" : 1783603288505,
+        "duration" : 19
       },
       "status" : "passed",
       "steps" : [ ],
@@ -127,7 +190,7 @@
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 7,
+    "stepsCount" : 11,
     "hasContent" : true,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false
@@ -138,7 +201,7 @@
     "value" : "MacMiniWebIos.local"
   }, {
     "name" : "thread",
-    "value" : "27757@MacMiniWebIos.local.main(3)"
+    "value" : "29026@MacMiniWebIos.local.main(3)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -153,7 +216,7 @@
     "value" : "test.DemoOrderTest"
   }, {
     "name" : "testMethod",
-    "value" : "myMaketsCheck"
+    "value" : "DadataTest"
   }, {
     "name" : "suite",
     "value" : "test.DemoOrderTest"
@@ -171,6 +234,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "d0f485d1d344e681.json",
+  "source" : "b9e599493f46076e.json",
   "parameterValues" : [ ]
 }
