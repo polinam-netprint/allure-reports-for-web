@@ -1,12 +1,12 @@
 {
-  "uid" : "7d88ba7bd7532496",
-  "name" : "Заказ постера: неавторизованный юзер-PosterOrderUnauthorized",
-  "fullName" : "test.DemoOrderTest.posterOrderNotAuthorized",
-  "historyId" : "964a1e0b8f4c9287ac4a2678d7bd6dce",
+  "uid" : "bb689bbe960dc724",
+  "name" : "Пополнение лицевого счёта в личном кабинете-TopUpAccount",
+  "fullName" : "test.DemoOrderTest.orderTopUpAccount",
+  "historyId" : "efa837afbc6d92b790a3a92ca90d555c",
   "time" : {
-    "start" : 1784830652411,
-    "stop" : 1784830669152,
-    "duration" : 16741
+    "start" : 1784834020022,
+    "stop" : 1784834048720,
+    "duration" : 28698
   },
   "description" : "",
   "status" : "passed",
@@ -19,9 +19,9 @@
     "steps" : [ {
       "name" : "Проверка cookie и выведение на экран",
       "time" : {
-        "start" : 1784830652412,
-        "stop" : 1784830652416,
-        "duration" : 4
+        "start" : 1784834020038,
+        "stop" : 1784834020044,
+        "duration" : 6
       },
       "status" : "passed",
       "steps" : [ ],
@@ -35,107 +35,89 @@
       "stepsCount" : 0,
       "hasContent" : true
     }, {
-      "name" : "Выбор категории меню",
+      "name" : "Авторизация по e-token",
       "time" : {
-        "start" : 1784830652417,
-        "stop" : 1784830652548,
-        "duration" : 131
+        "start" : 1784834020048,
+        "stop" : 1784834021577,
+        "duration" : 1529
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
-      "parameters" : [ {
-        "name" : "menuSec",
-        "value" : "Фотографии"
-      } ],
+      "parameters" : [ ],
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
       "stepsCount" : 0,
-      "hasContent" : true
+      "hasContent" : false
     }, {
-      "name" : "Выбор типа продукта",
+      "name" : "Авторизация по имейлу",
       "time" : {
-        "start" : 1784830652548,
-        "stop" : 1784830652610,
+        "start" : 1784834021578,
+        "stop" : 1784834036704,
+        "duration" : 15126
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Открыть личный кабинет",
+      "time" : {
+        "start" : 1784834036720,
+        "stop" : 1784834038635,
+        "duration" : 1915
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Выбор раздела Мои финансы",
+      "time" : {
+        "start" : 1784834038636,
+        "stop" : 1784834038698,
         "duration" : 62
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Заполнить данные для пополнения Лицевого счета",
+      "time" : {
+        "start" : 1784834038698,
+        "stop" : 1784834042684,
+        "duration" : 3986
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
       "parameters" : [ {
-        "name" : "productType",
-        "value" : "Постеры"
+        "name" : "sum",
+        "value" : "11"
       } ],
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
       "stepsCount" : 0,
       "hasContent" : true
     }, {
-      "name" : "Переход к оформлению макета из карточки товара",
+      "name" : "Проверить открытие пейкипера",
       "time" : {
-        "start" : 1784830652610,
-        "stop" : 1784830659796,
-        "duration" : 7186
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : false
-    }, {
-      "name" : "Выбор темы макета",
-      "time" : {
-        "start" : 1784830659796,
-        "stop" : 1784830661168,
-        "duration" : 1372
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : false
-    }, {
-      "name" : "Выбор стиля макета",
-      "time" : {
-        "start" : 1784830661168,
-        "stop" : 1784830661232,
-        "duration" : 64
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : false
-    }, {
-      "name" : "Переход в экспресс-редактор",
-      "time" : {
-        "start" : 1784830661233,
-        "stop" : 1784830661276,
-        "duration" : 43
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : false
-    }, {
-      "name" : "Переход в корзину из экспресс-редактора",
-      "time" : {
-        "start" : 1784830661276,
-        "stop" : 1784830662975,
-        "duration" : 1699
+        "start" : 1784834042686,
+        "stop" : 1784834048706,
+        "duration" : 6020
       },
       "status" : "passed",
       "steps" : [ ],
@@ -150,19 +132,16 @@
     "parameters" : [ ],
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "stepsCount" : 8,
+    "stepsCount" : 7,
     "hasContent" : true
   },
   "afterStages" : [ ],
   "labels" : [ {
-    "name" : "tag",
-    "value" : "smoke"
-  }, {
     "name" : "host",
     "value" : "MacMiniWebIos.local"
   }, {
     "name" : "thread",
-    "value" : "86813@MacMiniWebIos.local.main(3)"
+    "value" : "88318@MacMiniWebIos.local.main(3)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -177,7 +156,7 @@
     "value" : "test.DemoOrderTest"
   }, {
     "name" : "testMethod",
-    "value" : "posterOrderNotAuthorized"
+    "value" : "orderTopUpAccount"
   }, {
     "name" : "suite",
     "value" : "test.DemoOrderTest"
@@ -193,8 +172,8 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "tags" : [ "smoke" ]
+    "tags" : [ ]
   },
-  "source" : "7d88ba7bd7532496.json",
+  "source" : "bb689bbe960dc724.json",
   "parameterValues" : [ ]
 }
