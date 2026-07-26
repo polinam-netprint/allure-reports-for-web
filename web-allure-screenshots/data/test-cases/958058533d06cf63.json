@@ -1,12 +1,12 @@
 {
-  "uid" : "550fd89786d15357",
-  "name" : "Проверка Моих Макетов-MyMakets",
-  "fullName" : "test.DemoOrderTest.myMaketsCheck",
-  "historyId" : "483298396508e44c15750cb26811de8d",
+  "uid" : "958058533d06cf63",
+  "name" : "Пополнение лицевого счёта в личном кабинете-TopUpAccount",
+  "fullName" : "test.DemoOrderTest.orderTopUpAccount",
+  "historyId" : "efa837afbc6d92b790a3a92ca90d555c",
   "time" : {
-    "start" : 1785072040804,
-    "stop" : 1785072071446,
-    "duration" : 30642
+    "start" : 1785075222579,
+    "stop" : 1785075256838,
+    "duration" : 34259
   },
   "description" : "",
   "status" : "passed",
@@ -19,9 +19,9 @@
     "steps" : [ {
       "name" : "Проверка cookie и выведение на экран",
       "time" : {
-        "start" : 1785072040804,
-        "stop" : 1785072040807,
-        "duration" : 3
+        "start" : 1785075222594,
+        "stop" : 1785075222600,
+        "duration" : 6
       },
       "status" : "passed",
       "steps" : [ ],
@@ -35,11 +35,11 @@
       "stepsCount" : 0,
       "hasContent" : true
     }, {
-      "name" : "Авторизация по имейлу",
+      "name" : "Авторизация по e-token",
       "time" : {
-        "start" : 1785072040807,
-        "stop" : 1785072056166,
-        "duration" : 15359
+        "start" : 1785075222604,
+        "stop" : 1785075224258,
+        "duration" : 1654
       },
       "status" : "passed",
       "steps" : [ ],
@@ -50,11 +50,11 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Авторизация по e-token",
+      "name" : "Авторизация по имейлу",
       "time" : {
-        "start" : 1785072056167,
-        "stop" : 1785072058163,
-        "duration" : 1996
+        "start" : 1785075224259,
+        "stop" : 1785075244416,
+        "duration" : 20157
       },
       "status" : "passed",
       "steps" : [ ],
@@ -67,9 +67,9 @@
     }, {
       "name" : "Открыть личный кабинет",
       "time" : {
-        "start" : 1785072058163,
-        "stop" : 1785072059822,
-        "duration" : 1659
+        "start" : 1785075244432,
+        "stop" : 1785075246775,
+        "duration" : 2343
       },
       "status" : "passed",
       "steps" : [ ],
@@ -80,11 +80,11 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Проверка, что личный кабинет подгружен",
+      "name" : "Выбор раздела Мои финансы",
       "time" : {
-        "start" : 1785072059822,
-        "stop" : 1785072059844,
-        "duration" : 22
+        "start" : 1785075246776,
+        "stop" : 1785075246851,
+        "duration" : 75
       },
       "status" : "passed",
       "steps" : [ ],
@@ -95,26 +95,29 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Открыть раздел Мои макеты",
+      "name" : "Заполнить данные для пополнения Лицевого счета",
       "time" : {
-        "start" : 1785072059844,
-        "stop" : 1785072065807,
-        "duration" : 5963
+        "start" : 1785075246851,
+        "stop" : 1785075250810,
+        "duration" : 3959
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
-      "parameters" : [ ],
+      "parameters" : [ {
+        "name" : "sum",
+        "value" : "11"
+      } ],
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
       "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : true
     }, {
-      "name" : "Проверить, что раздел Мои макеты подгружены",
+      "name" : "Проверить открытие пейкипера",
       "time" : {
-        "start" : 1785072065807,
-        "stop" : 1785072071445,
-        "duration" : 5638
+        "start" : 1785075250812,
+        "stop" : 1785075256833,
+        "duration" : 6021
       },
       "status" : "passed",
       "steps" : [ ],
@@ -138,7 +141,7 @@
     "value" : "MacMiniWebIos.local"
   }, {
     "name" : "thread",
-    "value" : "29311@MacMiniWebIos.local.main(3)"
+    "value" : "30827@MacMiniWebIos.local.main(3)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -153,7 +156,7 @@
     "value" : "test.DemoOrderTest"
   }, {
     "name" : "testMethod",
-    "value" : "myMaketsCheck"
+    "value" : "orderTopUpAccount"
   }, {
     "name" : "suite",
     "value" : "test.DemoOrderTest"
@@ -171,6 +174,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "550fd89786d15357.json",
+  "source" : "958058533d06cf63.json",
   "parameterValues" : [ ]
 }
