@@ -1,12 +1,12 @@
 {
-  "uid" : "f6788b5774f61147",
-  "name" : "Пополнение лицевого счёта в личном кабинете-TopUpAccount",
-  "fullName" : "test.DemoOrderTest.orderTopUpAccount",
-  "historyId" : "efa837afbc6d92b790a3a92ca90d555c",
+  "uid" : "5f40f5a0cc8173c3",
+  "name" : "Заказ постера: неавторизованный юзер-PosterOrderUnauthorized",
+  "fullName" : "test.DemoOrderTest.posterOrderNotAuthorized",
+  "historyId" : "964a1e0b8f4c9287ac4a2678d7bd6dce",
   "time" : {
-    "start" : 1785248019010,
-    "stop" : 1785248048683,
-    "duration" : 29673
+    "start" : 1785251856756,
+    "stop" : 1785251873745,
+    "duration" : 16989
   },
   "description" : "",
   "status" : "passed",
@@ -19,9 +19,9 @@
     "steps" : [ {
       "name" : "Проверка cookie и выведение на экран",
       "time" : {
-        "start" : 1785248019026,
-        "stop" : 1785248019033,
-        "duration" : 7
+        "start" : 1785251856757,
+        "stop" : 1785251856762,
+        "duration" : 5
       },
       "status" : "passed",
       "steps" : [ ],
@@ -35,89 +35,107 @@
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
-      "name" : "Авторизация по e-token",
+      "name" : "Выбор категории меню",
       "time" : {
-        "start" : 1785248019036,
-        "stop" : 1785248020546,
-        "duration" : 1510
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "Авторизация по имейлу",
-      "time" : {
-        "start" : 1785248020547,
-        "stop" : 1785248036374,
-        "duration" : 15827
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "Открыть личный кабинет",
-      "time" : {
-        "start" : 1785248036389,
-        "stop" : 1785248038442,
-        "duration" : 2053
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "Выбор раздела Мои финансы",
-      "time" : {
-        "start" : 1785248038443,
-        "stop" : 1785248038524,
-        "duration" : 81
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "Заполнить данные для пополнения Лицевого счета",
-      "time" : {
-        "start" : 1785248038524,
-        "stop" : 1785248042524,
-        "duration" : 4000
+        "start" : 1785251856762,
+        "stop" : 1785251856929,
+        "duration" : 167
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
-        "name" : "sum",
-        "value" : "11"
+        "name" : "menuSec",
+        "value" : "Фотографии"
       } ],
       "stepsCount" : 0,
       "hasContent" : true,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
-      "name" : "Проверить открытие пейкипера",
+      "name" : "Выбор типа продукта",
       "time" : {
-        "start" : 1785248042526,
-        "stop" : 1785248048668,
-        "duration" : 6142
+        "start" : 1785251856929,
+        "stop" : 1785251857004,
+        "duration" : 75
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "productType",
+        "value" : "Постеры"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Переход к оформлению макета из карточки товара",
+      "time" : {
+        "start" : 1785251857004,
+        "stop" : 1785251864432,
+        "duration" : 7428
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Выбор темы макета",
+      "time" : {
+        "start" : 1785251864432,
+        "stop" : 1785251865685,
+        "duration" : 1253
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Выбор стиля макета",
+      "time" : {
+        "start" : 1785251865685,
+        "stop" : 1785251865747,
+        "duration" : 62
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Переход в экспресс-редактор",
+      "time" : {
+        "start" : 1785251865747,
+        "stop" : 1785251865791,
+        "duration" : 44
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Переход в корзину из экспресс-редактора",
+      "time" : {
+        "start" : 1785251865791,
+        "stop" : 1785251867566,
+        "duration" : 1775
       },
       "status" : "passed",
       "steps" : [ ],
@@ -130,18 +148,21 @@
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 7,
+    "stepsCount" : 8,
     "hasContent" : true,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false
   },
   "afterStages" : [ ],
   "labels" : [ {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
     "name" : "host",
     "value" : "MacMiniWebIos.local"
   }, {
     "name" : "thread",
-    "value" : "3635@MacMiniWebIos.local.main(3)"
+    "value" : "5114@MacMiniWebIos.local.main(3)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -156,7 +177,7 @@
     "value" : "test.DemoOrderTest"
   }, {
     "name" : "testMethod",
-    "value" : "orderTopUpAccount"
+    "value" : "posterOrderNotAuthorized"
   }, {
     "name" : "suite",
     "value" : "test.DemoOrderTest"
@@ -172,8 +193,8 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "tags" : [ ]
+    "tags" : [ "smoke" ]
   },
-  "source" : "f6788b5774f61147.json",
+  "source" : "5f40f5a0cc8173c3.json",
   "parameterValues" : [ ]
 }
